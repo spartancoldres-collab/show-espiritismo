@@ -1,0 +1,1602 @@
+[
+  {
+    "id": 1,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "O que é Deus?",
+    "options": [
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "Deus é a inteligência suprema, causa primária de todas as coisas ."
+    ],
+    "correct": 3,
+    "reference": "Questão 1",
+    "explanation": "Deus é a inteligência suprema, causa primária de todas as coisas .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 2,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "O que deve mos  entender por infinito?",
+    "options": [
+      "O que não tem começo nem fim: o desconhecido; tudo o que é \ndesconhecido é infinito.",
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas."
+    ],
+    "correct": 0,
+    "reference": "Questão 2",
+    "explanation": "O que não tem começo nem fim: o desconhecido; tudo o que é \ndesconhecido é infinito.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 3,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "Poderíamos dizer que Deus é o infinito?",
+    "options": [
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "Definição incompleta. Pobreza da linguagem humana,  que é  insuficiente \npara definir as coisas que  estão acima da sua inteligência .",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas."
+    ],
+    "correct": 1,
+    "reference": "Questão 3",
+    "explanation": "Definição incompleta. Pobreza da linguagem humana,  que é  insuficiente \npara definir as coisas que  estão acima da sua inteligência .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 4,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "Onde podemos encontrar a prova da existência de Deus?",
+    "options": [
+      "Num axioma que vocês aplica m em suas  ciências : Não há efeito sem \ncausa. Procur em a causa de tudo o que não é obra do homem e a vossa razão \nresponderá.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé."
+    ],
+    "correct": 0,
+    "reference": "Questão 4",
+    "explanation": "Num axioma que vocês aplica m em suas  ciências : Não há efeito sem \ncausa. Procur em a causa de tudo o que não é obra do homem e a vossa razão \nresponderá.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 5,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "Que consequência pode mos  tirar do sentimento intuitivo que todos os \nhomens trazem em si da existência de Deus?",
+    "options": [
+      "Que Deus existe; pois, de onde lhes viria esse sentimento se não se \napoiasse sobre nada ? É também uma consequência daquele princípio que não \nhá efeito sem causa.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados."
+    ],
+    "correct": 0,
+    "reference": "Questão 5",
+    "explanation": "Que Deus existe; pois, de onde lhes viria esse sentimento se não se \napoiasse sobre nada ? É também uma consequência daquele princípio que não \nhá efeito sem causa.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 6,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "O sentimento íntimo que temos em nós mesmos da existência de Deus não \nseria fruto da educação  e o resultado de ideias adquiridas?",
+    "options": [
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "Se assim fosse, por que vossos selvagens teriam esse sentimento?",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas."
+    ],
+    "correct": 1,
+    "reference": "Questão 6",
+    "explanation": "Se assim fosse, por que vossos selvagens teriam esse sentimento?",
+    "difficulty": "normal"
+  },
+  {
+    "id": 7,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "Poderíamos encontrar  a causa primária da formação das coisas  nas \npropriedades íntimas da matéria ?",
+    "options": [
+      "Mas então qual seria a causa dessas propriedades? Sempre é necessária \numa causa primária.",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual."
+    ],
+    "correct": 0,
+    "reference": "Questão 7",
+    "explanation": "Mas então qual seria a causa dessas propriedades? Sempre é necessária \numa causa primária.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 8,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "Que pensar da opinião que atribu i a formação primária a uma combinação \nfortuita da matéria, ou , dita  de outra forma, ao acaso?",
+    "options": [
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "Outro absurdo! Que homem de bom senso  pode considerar o acaso \n61 – O Livro dos Espíritos  \n \n \n como um ser inteligente? E  ademais, o que é o acaso? Nada.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados."
+    ],
+    "correct": 1,
+    "reference": "Questão 8",
+    "explanation": "Outro absurdo! Que homem de bom senso  pode considerar o acaso \n61 – O Livro dos Espíritos  \n \n \n como um ser inteligente? E  ademais, o que é o acaso? Nada.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 9,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "Onde é que se vê na causa primária uma inteligência suprema e superior a \ntodas as inteligências?",
+    "options": [
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério.",
+      "Vocês têm um provérbio que diz  isso : Pela obra se reconhece o autor. \nPois bem! Vejam a obra e procurem o autor. É o  orgulho que gera a \nincredulidade. O homem orgulhoso não quer nada acima de si , por isso é que \nele se denomina espírito forte. Pobre ser, que um sopro de Deus pode abater!",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados."
+    ],
+    "correct": 2,
+    "reference": "Questão 9",
+    "explanation": "Vocês têm um provérbio que diz  isso : Pela obra se reconhece o autor. \nPois bem! Vejam a obra e procurem o autor. É o  orgulho que gera a \nincredulidade. O homem orgulhoso não quer nada acima de si , por isso é que \nele se denomina espírito forte. Pobre ser, que um sopro de Deus pode abater!",
+    "difficulty": "normal"
+  },
+  {
+    "id": 10,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "O homem pode compreender a natureza íntima de Deus?",
+    "options": [
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Não;  esse é um sentido que lhe falta.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados."
+    ],
+    "correct": 2,
+    "reference": "Questão 10",
+    "explanation": "Não;  esse é um sentido que lhe falta.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 11,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "Algum dia será permitido a o homem compreender o mistério da \nDivindade?",
+    "options": [
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "Quando seu espírito não estiver mais obscurecido pela matéria  e, por \nsua perfeição, estiver se aproximado d e Deus , então ele o verá e o \ncompreenderá.",
+      "Os espíritos comunicantes indicaram que a humanidade ainda não está preparada para compreender plenamente este mistério.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé."
+    ],
+    "correct": 1,
+    "reference": "Questão 11",
+    "explanation": "Quando seu espírito não estiver mais obscurecido pela matéria  e, por \nsua perfeição, estiver se aproximado d e Deus , então ele o verá e o \ncompreenderá.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 12,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "Já que  não po demos compreender a natureza íntima de Deus, podemos ter \numa  ideia de algumas de suas perfeições?",
+    "options": [
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal.",
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério.",
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "Sim, d e algumas. O homem as compreende melhor na proporção em que \nse eleva acima da matéria ; ele as vê pelo pensamento."
+    ],
+    "correct": 3,
+    "reference": "Questão 12",
+    "explanation": "Sim, d e algumas. O homem as compreende melhor na proporção em que \nse eleva acima da matéria ; ele as vê pelo pensamento.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 13,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "Quando dizemos que Deus é eterno, infinito, imutável, imaterial, único, \nonipotente, soberanamente justo e bom, fazemos uma  ideia completa de seus \natributos?",
+    "options": [
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "Do vosso  ponto de vista, sim, porque vocês creem abranger tudo. \nTodavia , saibam que há coisas acima da inteligência do homem mais \ninteligente, e para as quais a vossa  linguagem  — limitada às vossas ideias e \nsensações  — não tem expressões . Com efeito, a razão lhes diz que Deus deve \nter essas perfeições no grau supremo, pois se ele tiver uma só de menos , ou \nque não fosse em um grau infinit o, ele já não seria superior a tudo e, por \nconseguinte , não seria mais Deus. Para estar acima de todas as coisas Deus  \nnão deve estar sujeito a  qualquer vicissitude  nem ter nenhuma  das \nimperfeições que a imaginação possa c onceber .",
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa."
+    ],
+    "correct": 1,
+    "reference": "Questão 13",
+    "explanation": "Do vosso  ponto de vista, sim, porque vocês creem abranger tudo. \nTodavia , saibam que há coisas acima da inteligência do homem mais \ninteligente, e para as quais a vossa  linguagem  — limitada às vossas ideias e \nsensações  — não tem expressões . Com efeito, a razão lhes diz que Deus deve \nter essas perfeições no grau supremo, pois se ele tiver uma só de menos , ou \nque não fosse em um grau infinit o, ele já não seria superior a tudo e, por \nconseguinte , não seria mais Deus. Para estar acima de todas as coisas Deus  \nnão deve estar sujeito a  qualquer vicissitude  nem ter nenhuma  das \nimperfeições que a imaginação possa c onceber .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 14,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "Deus é um ser distinto, ou, segundo a opinião de alguns , ser ia o resultado \nde todas as forças e de todas as inteligências do Universo reunidas?",
+    "options": [
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "Se fosse assim, Deus não existiria, porque seria o efeito e não a causa ; \nele não pode ser ao mesmo tempo uma e outra coisa.  \n“Deus existe , disso vocês não podem duvidar , isso  é o essencial . \nAcreditem em mim e não queiram ir além ; não se percam num labirinto de \nonde não poderiam  sair. Isso não lhes  tornaria melhores, mas talvez  um \npouco mais orgulhosos, pois vocês acreditariam saber, quando na realidade \nnada saberiam. Então, d eixem de lado todos esses sistemas; vocês têm \nbastantes coisas que lhes interessam mais diretamente , a começar por vocês \nmesmos ; estudem as suas próprias imperfeições a fim de se libertarem delas, \no que lhes será mais útil do que pretender penetrar no que é impenetrável.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "A resposta correta emerge da síntese entre razão, sentimento e intuição espiritual de cada estudioso sério."
+    ],
+    "correct": 1,
+    "reference": "Questão 14",
+    "explanation": "Se fosse assim, Deus não existiria, porque seria o efeito e não a causa ; \nele não pode ser ao mesmo tempo uma e outra coisa.  \n“Deus existe , disso vocês não podem duvidar , isso  é o essencial . \nAcreditem em mim e não queiram ir além ; não se percam num labirinto de \nonde não poderiam  sair. Isso não lhes  tornaria melhores, mas talvez  um \npouco mais orgulhosos, pois vocês acreditariam saber, quando na realidade \nnada saberiam. Então, d eixem de lado todos esses sistemas; vocês têm \nbastantes coisas que lhes interessam mais diretamente , a começar por vocês \nmesmos ; estudem as suas próprias imperfeições a fim de se libertarem delas, \no que lhes será mais útil do que pretender penetrar no que é impenetrável.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 15,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo I - De Deus",
+    "question": "Que pensar da opinião segundo a qual todos os corpos da natureza, todos \nos seres, todos os globos do Universo seriam partes da Divindade e  em seu \nconjunto constituem a própria Divindade ; noutras palavras , o que pensar da \ndoutrina panteísta?",
+    "options": [
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "Não podendo fazer -se Deus, o homem quer pelo  menos ser uma parte \nde Deus .",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas."
+    ],
+    "correct": 1,
+    "reference": "Questão 15",
+    "explanation": "Não podendo fazer -se Deus, o homem quer pelo  menos ser uma parte \nde Deus .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 16,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "Aqueles que professam  essa doutrina pretendem encontrar nela a \ndemonstração de alguns dos atributos de Deus . Os mundos s endo infinitos, \nDeus é, por isso mesmo, infinito;  o vazio ou o nada não existindo  em parte  \nalguma , Deus está por toda parte; estando Deus em toda parte, pois tudo é \nparte integrante de Deus, ele dá a todos os fenômenos da natureza uma razão \nde ser inteligente. O que podemos opor a este raciocínio?  \n64 – Allan Kardec  \n \n \n “A razão ; reflitam seriamente e não lhes será difícil reconhecerem aí o \nabsurdo.”  \n \nEssa doutrina faz de Deus um ser material que, conquanto  dotado de uma \nsuprema inteligência, seria em grande escala  o que somos em pequen a escala . Ora, \ncomo a matéria se transforma constantemente, se Deus fosse assim, ele não teria \nnenhuma estabilidade; ele estaria  sujeito a todas as vicissitudes  e até todas a s \nnecessidades da humanidade; faltaria a ele um a das qualidades essenciais da \nDivindade: a imutabilidade. As propriedades da matéria não podem se aliar à ideia \nde Deus sem o rebaixa r ante noss o pensamento,  e todas as sutilezas d o sofisma  não \ncheg ariam a resolver o problema da sua natureza íntima. Não sabemos tudo o que \nele é, mas sabemos o que ele não pode deixar de ser , e essa teoria d o Panteísmo \nestá em contradição com suas mais essenciais propriedades ; ela confunde o criador \ncom a criatura, exatamente como se quisessem  que uma máquina  engenhosa fosse \nparte integrante do mecânico que a concebeu . \nA inteligência de Deus se revela em suas obras como a de um pintor no seu \nquadro; no entanto , as obras de Deus não são o próprio Deus, assim como o quadro \nnão é o pintor que o imaginou  e o executou.  \n  \n65 – O Livro dos Espíritos  \n \n \n  \nCAPÍTULO II  \n \nELEMENTOS GERAIS DO UNIVERSO  \n \nConhecimento do princípio das coisas – Espírito e matéria – \nPropriedades da matéria – Espaço universal  \n \n \nConhecimento do princípio das coisas  \n \n17. É permitido ao homem conhecer o princípio das coisas?",
+    "options": [
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "Não, Deus não permite que tudo seja revelado ao homem neste mundo.",
+      "Os espíritos comunicantes indicaram que a humanidade ainda não está preparada para compreender plenamente este mistério.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé."
+    ],
+    "correct": 1,
+    "reference": "Questão 16",
+    "explanation": "Não, Deus não permite que tudo seja revelado ao homem neste mundo.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 18,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "O homem penetrará algum dia o mistério das coisas que lhe estão ocultas?",
+    "options": [
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "O véu se levanta para ele  à medida que ele se purifica; mas, para \ncompreender certas coisas, é preciso faculdades que ele ainda não tem ."
+    ],
+    "correct": 3,
+    "reference": "Questão 18",
+    "explanation": "O véu se levanta para ele  à medida que ele se purifica; mas, para \ncompreender certas coisas, é preciso faculdades que ele ainda não tem .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 19,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "Pelas investigações da ciência, o homem não poderia penetrar  alguns dos \nsegredos da natureza?",
+    "options": [
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "A ciência lhe foi dada para seu adiantamento em todas as coisas , mas  ele \nnão pode ultrapassar os limites fixados por Deus.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina."
+    ],
+    "correct": 1,
+    "reference": "Questão 19",
+    "explanation": "A ciência lhe foi dada para seu adiantamento em todas as coisas , mas  ele \nnão pode ultrapassar os limites fixados por Deus.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 20,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "Fora das investigações da ciência , é permitido ao homem receber \ncomunicações de uma ordem mais elevada acerca do que escapa da percepção  \n66 – Allan Kardec  \n \n \n dos seus sentidos?",
+    "options": [
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "Sim, se Deus assim julgar útil ele pode revelar o que a ciência não pode \napreender."
+    ],
+    "correct": 3,
+    "reference": "Questão 20",
+    "explanation": "Sim, se Deus assim julgar útil ele pode revelar o que a ciência não pode \napreender.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 21,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "A matéria existe desde toda a eternidade assim como Deus, ou ela foi \ncriada por ele em algum momento?",
+    "options": [
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "Só Deus o sabe. Entretanto , há uma coisa que a vossa razão deve \nindicar: é que Deus, modelo de amor e caridade, nunca esteve inativo . Por \nmais distante que vocês possam imaginar o início de ação  dele , poderiam \nimagin á-lo um segundo  na ociosidade ?",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior."
+    ],
+    "correct": 1,
+    "reference": "Questão 21",
+    "explanation": "Só Deus o sabe. Entretanto , há uma coisa que a vossa razão deve \nindicar: é que Deus, modelo de amor e caridade, nunca esteve inativo . Por \nmais distante que vocês possam imaginar o início de ação  dele , poderiam \nimagin á-lo um segundo  na ociosidade ?",
+    "difficulty": "normal"
+  },
+  {
+    "id": 22,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "Geralmente, define -se m atéria  assim : o que tem extensão , o que é capaz de \nimpressionar os noss os sentidos  e o que é impenetrável . Estas definições são \nexatas?",
+    "options": [
+      "Do vosso ponto de vist a elas são  exatas , porque vocês falam somente do \nque conhecem ; ma s a matéria existe em estados que são desconhecidos por \nvocês; ela pode ser, p or exemplo, tão etérea e sutil que não cause nenhuma \nsensação aos sentidos humanos ; contudo, é sempre matéria, embora para \nvocês  ela não o seria.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "A resposta correta emerge da síntese entre razão, sentimento e intuição espiritual de cada estudioso sério.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas."
+    ],
+    "correct": 0,
+    "reference": "Questão 22",
+    "explanation": "Do vosso ponto de vist a elas são  exatas , porque vocês falam somente do \nque conhecem ; ma s a matéria existe em estados que são desconhecidos por \nvocês; ela pode ser, p or exemplo, tão etérea e sutil que não cause nenhuma \nsensação aos sentidos humanos ; contudo, é sempre matéria, embora para \nvocês  ela não o seria.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 23,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "O que é o espírito?",
+    "options": [
+      "É o princípio inteligente do Universo.",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "Os espíritos comunicantes indicaram que a humanidade ainda não está preparada para compreender plenamente este mistério."
+    ],
+    "correct": 0,
+    "reference": "Questão 23",
+    "explanation": "É o princípio inteligente do Universo.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 24,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "O espírito é sinônimo de inteligência?",
+    "options": [
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "A resposta correta emerge da síntese entre razão, sentimento e intuição espiritual de cada estudioso sério.",
+      "A inteligência é uma qualidade essencial do espírito ; uma e outr a se \nconfundem num princípio comum, de maneira que para vocês isso é  a mesma \ncoisa."
+    ],
+    "correct": 3,
+    "reference": "Questão 24",
+    "explanation": "A inteligência é uma qualidade essencial do espírito ; uma e outr a se \nconfundem num princípio comum, de maneira que para vocês isso é  a mesma \ncoisa.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 25,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "O espírito é independe nte da matéria ou é apenas uma propriedade desta, \ncomo as cores são propriedades da luz e o som é uma propriedade do ar?",
+    "options": [
+      "São distintos , mas  é necessária a união do espírito e da matéria para \nintelectualizar a matéria .",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal.",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados."
+    ],
+    "correct": 0,
+    "reference": "Questão 25",
+    "explanation": "São distintos , mas  é necessária a união do espírito e da matéria para \nintelectualizar a matéria .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 26,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "Poderíamos conceber o espírito sem a matéria e a matéria sem o espírito?",
+    "options": [
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "Podem s im, sem dúvida, pelo pensamento."
+    ],
+    "correct": 3,
+    "reference": "Questão 26",
+    "explanation": "Podem s im, sem dúvida, pelo pensamento.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 27,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "H averia  então dois elementos gerais do Universo: matéria e espírito?",
+    "options": [
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "Sim , e acima de tudo Deus, o criador, o pai de todas as coisas ; essas três \ncoisas constituem o princípio de tudo o que existe, a trindade universal . \nContudo , ao elemento material é preciso acrescentar  o fluido universal, que \ndesempenha o papel de intermediário entre o espírito e a matéria \npropriamente dita, que é bastante grosseira para que o espírito possa exercer \nação sobre ela. Embora, em um  certo ponto de vista possamos  classificá -lo \ncomo elemento material, o fluido universal  se distingue por propriedades \n68 – Allan Kardec  \n \n \n especiais ; se ele fosse concretamente matéria,  não haveria razão para que \ntambém o espírito não o fosse. E le está colocado entre o espírito e a matéria;  é \num fluido, como a matéria é matéria, e — pelas suas inumeráveis \ncombinações com esta  última, e sob a ação do espírito  — é suscetível  de \nproduzir a infinita variedade das coisas de que vocês não conhece m senão  \numa mínima  parte . Esse fluido universal, ou primitivo, ou elementar, sendo o \nagente  de que o espírito se utiliza, é o princípio sem o qual a matéria estaria \nem perpétuo estado de divisão e jamais  adquiriria as propriedades que a \nforça da gravidade lhe dá.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal."
+    ],
+    "correct": 2,
+    "reference": "Questão 27",
+    "explanation": "Sim , e acima de tudo Deus, o criador, o pai de todas as coisas ; essas três \ncoisas constituem o princípio de tudo o que existe, a trindade universal . \nContudo , ao elemento material é preciso acrescentar  o fluido universal, que \ndesempenha o papel de intermediário entre o espírito e a matéria \npropriamente dita, que é bastante grosseira para que o espírito possa exercer \nação sobre ela. Embora, em um  certo ponto de vista possamos  classificá -lo \ncomo elemento material, o fluido universal  se distingue por propriedades \n68 – Allan Kardec  \n \n \n especiais ; se ele fosse concretamente matéria,  não haveria razão para que \ntambém o espírito não o fosse. E le está colocado entre o espírito e a matéria;  é \num fluido, como a matéria é matéria, e — pelas suas inumeráveis \ncombinações com esta  última, e sob a ação do espírito  — é suscetível  de \nproduzir a infinita variedade das coisas de que vocês não conhece m senão  \numa mínima  parte . Esse fluido universal, ou primitivo, ou elementar, sendo o \nagente  de que o espírito se utiliza, é o princípio sem o qual a matéria estaria \nem perpétuo estado de divisão e jamais  adquiriria as propriedades que a \nforça da gravidade lhe dá.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 28,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "Como o espírito é propriamente alguma coisa, não seria mais exato e \nmenos sujeito a confusão d esignar  esses dois elementos gerais  pelas palavras:  \nmatéria inerte  e matéria inteligente ?",
+    "options": [
+      "As palavras pouco importam para nós ; cabe a vocês formular em a \nlinguagem da maneira que bem entend am. Vossas  disputas quase sempre  vêm \nde não se entenderem acerca das palavras , po rque  a vossa linguagem é \nincompleta para as coisas imperceptíveis a os vossos  sentidos.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "Os espíritos comunicantes indicaram que a humanidade ainda não está preparada para compreender plenamente este mistério."
+    ],
+    "correct": 0,
+    "reference": "Questão 28",
+    "explanation": "As palavras pouco importam para nós ; cabe a vocês formular em a \nlinguagem da maneira que bem entend am. Vossas  disputas quase sempre  vêm \nde não se entenderem acerca das palavras , po rque  a vossa linguagem é \nincompleta para as coisas imperceptíveis a os vossos  sentidos.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 29,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "A ponderabilidade é um atributo essencial da matéria?",
+    "options": [
+      "Da matéria tal como  vocês a entendem, sim; mas  não da matéria \nconsiderada como fluido universal. A matéria etérea e sutil que forma  esse \nfluido é imponderável para vocês, e não deixa de ser o princípio da vossa \nmatéria pesada.",
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas."
+    ],
+    "correct": 0,
+    "reference": "Questão 29",
+    "explanation": "Da matéria tal como  vocês a entendem, sim; mas  não da matéria \nconsiderada como fluido universal. A matéria etérea e sutil que forma  esse \nfluido é imponderável para vocês, e não deixa de ser o princípio da vossa \nmatéria pesada.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 30,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "A matéria é formada de um só elemento ou de muitos  elementos ?",
+    "options": [
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "De um só elemento primitivo. Os corpos que vocês considera m como \ncorpos simples não são verdadeiros elementos, mas  transformações da \nmatéria primitiva."
+    ],
+    "correct": 3,
+    "reference": "Questão 30",
+    "explanation": "De um só elemento primitivo. Os corpos que vocês considera m como \ncorpos simples não são verdadeiros elementos, mas  transformações da \nmatéria primitiva.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 31,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo II - Dos Elementos Gerais do Universo",
+    "question": "De onde vêm  as diferentes propriedades da matéria?",
+    "options": [
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "São modificações que as moléculas elementares sofrem por efeito da \nsua união  e em certas circunstâncias.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso."
+    ],
+    "correct": 1,
+    "reference": "Questão 31",
+    "explanation": "São modificações que as moléculas elementares sofrem por efeito da \nsua união  e em certas circunstâncias.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 32,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "De acordo com isso, os sabores, os odores, as cores, o som  e as qualidades \nvenenosas ou saudáveis dos corpos não seriam mais  do que  modificações de \numa única substância primitiva?",
+    "options": [
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "Sim, s em dúvida , e que não existem senão pela  disposição dos órgãos \ndestinados a percebê -las.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas."
+    ],
+    "correct": 1,
+    "reference": "Questão 32",
+    "explanation": "Sim, s em dúvida , e que não existem senão pela  disposição dos órgãos \ndestinados a percebê -las.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 33,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "A mesma matéria elementar é suscetível de receber  todas as modificações \ne de adquirir todas as propriedades?",
+    "options": [
+      "A resposta correta emerge da síntese entre razão, sentimento e intuição espiritual de cada estudioso sério.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "Os espíritos comunicantes indicaram que a humanidade ainda não está preparada para compreender plenamente este mistério.",
+      "Sim , e é isso o que se deve entender quando dizemos que tudo está em \n70 – Allan Kardec  \n \n \n tudo  11."
+    ],
+    "correct": 3,
+    "reference": "Questão 33",
+    "explanation": "Sim , e é isso o que se deve entender quando dizemos que tudo está em \n70 – Allan Kardec  \n \n \n tudo  11.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 34,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "As moléculas têm uma forma determinada?",
+    "options": [
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "Certamente as moléculas têm uma forma, mas que não é apreciável  \npara vocês."
+    ],
+    "correct": 3,
+    "reference": "Questão 34",
+    "explanation": "Certamente as moléculas têm uma forma, mas que não é apreciável  \npara vocês.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 35,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "O espaço universal é infinito ou limitado?",
+    "options": [
+      "Infinito. Supon ha que ele fosse limitado : o que haverá além de seus \nlimites? Isso confunde a razão , bem o sabemos, no entanto , a tua razão  te diz \nque não pode ser de outro modo. Ocorre o  mesmo com o infinito em todas as \ncoisas ; não é na vossa pequen a esfera que vocês pode m compreendê -lo.",
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso."
+    ],
+    "correct": 0,
+    "reference": "Questão 35",
+    "explanation": "Infinito. Supon ha que ele fosse limitado : o que haverá além de seus \nlimites? Isso confunde a razão , bem o sabemos, no entanto , a tua razão  te diz \nque não pode ser de outro modo. Ocorre o  mesmo com o infinito em todas as \ncoisas ; não é na vossa pequen a esfera que vocês pode m compreendê -lo.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 36,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "O vazio  absoluto existe em alguma parte no espaço universal?",
+    "options": [
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "Não, não há o vazio;  o que é vazio para ti está ocupado por uma matéria \nque escapa aos teus sentidos e aos teus instrumentos.",
+      "Os espíritos comunicantes indicaram que a humanidade ainda não está preparada para compreender plenamente este mistério."
+    ],
+    "correct": 2,
+    "reference": "Questão 36",
+    "explanation": "Não, não há o vazio;  o que é vazio para ti está ocupado por uma matéria \nque escapa aos teus sentidos e aos teus instrumentos.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 37,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "O Universo foi criado ou existe de toda a eternidade, como Deus?",
+    "options": [
+      "Sem  dúvida s que o Universo não p ôde se fazer sozinho , e se ele fosse de \ntoda a eternidade  como Deus, ele não poderia ser  obra de Deus.",
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal."
+    ],
+    "correct": 0,
+    "reference": "Questão 37",
+    "explanation": "Sem  dúvida s que o Universo não p ôde se fazer sozinho , e se ele fosse de \ntoda a eternidade  como Deus, ele não poderia ser  obra de Deus.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 38,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "Como Deus criou o Universo?",
+    "options": [
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "Para me servir de uma expressão: por sua Vontade. Nada caracteriza \nmelhor essa vontade onipotente do que estas belas palavras da Gênesis : ‘Deus \ndisse: Que a luz se faça, e a luz foi feita’.12",
+      "A resposta correta emerge da síntese entre razão, sentimento e intuição espiritual de cada estudioso sério.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados."
+    ],
+    "correct": 1,
+    "reference": "Questão 38",
+    "explanation": "Para me servir de uma expressão: por sua Vontade. Nada caracteriza \nmelhor essa vontade onipotente do que estas belas palavras da Gênesis : ‘Deus \ndisse: Que a luz se faça, e a luz foi feita’.12",
+    "difficulty": "normal"
+  },
+  {
+    "id": 39,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "Poderemos conhecer o modo da formação dos mundos?",
+    "options": [
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "Tudo o que se pode dizer e o que vocês podem compreender é que os \n \n12 Passagem bíblica presente no livro Gênesis, 1: 3 , também muito recorrente através da \nexpressão em latim fiat lux : “faça -se a luz",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "Os espíritos comunicantes indicaram que a humanidade ainda não está preparada para compreender plenamente este mistério."
+    ],
+    "correct": 1,
+    "reference": "Questão 39",
+    "explanation": "Tudo o que se pode dizer e o que vocês podem compreender é que os \n \n12 Passagem bíblica presente no livro Gênesis, 1: 3 , também muito recorrente através da \nexpressão em latim fiat lux : “faça -se a luz",
+    "difficulty": "normal"
+  },
+  {
+    "id": 40,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "Ser iam os cometas, como agora se pensa, um começo de condensação da \nmatéria  e dos  mundos em via de formação?",
+    "options": [
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Isso é exato ; mas o que é absurdo é acreditar na influência deles. Refiro -\nme à quela influência que vulgarmente lhes atribuem, porque todos os corpos \ncelestes têm sua parte de influência em  certos fenômenos físicos.",
+      "A resposta correta emerge da síntese entre razão, sentimento e intuição espiritual de cada estudioso sério."
+    ],
+    "correct": 2,
+    "reference": "Questão 40",
+    "explanation": "Isso é exato ; mas o que é absurdo é acreditar na influência deles. Refiro -\nme à quela influência que vulgarmente lhes atribuem, porque todos os corpos \ncelestes têm sua parte de influência em  certos fenômenos físicos.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 41,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "Um mundo completamente formado pode desaparecer e a matéria que o \ncompõe ser disseminada novamente no espaço?",
+    "options": [
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "Sim, Deus renova os mundos como renova os seres vivos.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso."
+    ],
+    "correct": 1,
+    "reference": "Questão 41",
+    "explanation": "Sim, Deus renova os mundos como renova os seres vivos.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 42,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "Podemos conhecer a dura ção da formação dos mundos  — da Terra, por \nexemplo?",
+    "options": [
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "Não  posso te dizer nada a respeito, pois  só o Criador o sabe , e bem louco \nseria quem pretend esse  saber disso , ou conhecer o número d os séculos dessa \nformação."
+    ],
+    "correct": 3,
+    "reference": "Questão 42",
+    "explanation": "Não  posso te dizer nada a respeito, pois  só o Criador o sabe , e bem louco \nseria quem pretend esse  saber disso , ou conhecer o número d os séculos dessa \nformação.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 43,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "Quando a Terra começou a ser povoada?",
+    "options": [
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "No princípio tudo era caos; os elementos estavam misturados . Pouco a \npouco cada coisa tomou o seu lugar ; então a pareceram os seres vivos \napropriados ao estado do globo."
+    ],
+    "correct": 3,
+    "reference": "Questão 43",
+    "explanation": "No princípio tudo era caos; os elementos estavam misturados . Pouco a \npouco cada coisa tomou o seu lugar ; então a pareceram os seres vivos \napropriados ao estado do globo.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 44,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "De onde os seres vivos vieram para a Terra?",
+    "options": [
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "A Terra continha os germens  deles , que aguardavam o momento \nfavorável para se desenvolverem. Os princípios orgânicos se reuniram desde \nquando  cessou  a força que os mantinha afastados e formaram os germens de \ntodos os seres viventes . Esse s germens permaneceram em estado latente e \ninerte , como a crisálida e as sementes das plantas, até o momento propício \npara a eclosão de cada espécie ; então o s seres de cada espécie se reuniram e \nse multiplicaram.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal.",
+      "Os espíritos comunicantes indicaram que a humanidade ainda não está preparada para compreender plenamente este mistério."
+    ],
+    "correct": 1,
+    "reference": "Questão 44",
+    "explanation": "A Terra continha os germens  deles , que aguardavam o momento \nfavorável para se desenvolverem. Os princípios orgânicos se reuniram desde \nquando  cessou  a força que os mantinha afastados e formaram os germens de \ntodos os seres viventes . Esse s germens permaneceram em estado latente e \ninerte , como a crisálida e as sementes das plantas, até o momento propício \npara a eclosão de cada espécie ; então o s seres de cada espécie se reuniram e \nse multiplicaram.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 45,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "Onde estavam os elementos orgânicos antes da formação da Terra?",
+    "options": [
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "Achavam -se, por assim dizer, em estado de fluido no espaço, no meio \ndos Espíritos, ou em outros planetas, esperando a criação da Terra para \ncomeçarem uma nova existência num  novo globo.",
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo."
+    ],
+    "correct": 2,
+    "reference": "Questão 45",
+    "explanation": "Achavam -se, por assim dizer, em estado de fluido no espaço, no meio \ndos Espíritos, ou em outros planetas, esperando a criação da Terra para \ncomeçarem uma nova existência num  novo globo.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 46,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "Ainda há seres que nasçam espontaneamente?",
+    "options": [
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "Sim, mas o gérmen primordial  já existia em estado latente. Vocês são \ntestemunhas desse fenômeno todos os dias. Os tecidos do corpo humano e o \ndos animais não contêm os germens de uma multidão de vermes que esperam \npara eclodir a fermentação  pútrida necessária para a existência  deles ? É um \npequeno mundo que dorm ita e que se cria."
+    ],
+    "correct": 3,
+    "reference": "Questão 46",
+    "explanation": "Sim, mas o gérmen primordial  já existia em estado latente. Vocês são \ntestemunhas desse fenômeno todos os dias. Os tecidos do corpo humano e o \ndos animais não contêm os germens de uma multidão de vermes que esperam \npara eclodir a fermentação  pútrida necessária para a existência  deles ? É um \npequeno mundo que dorm ita e que se cria.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 47,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "A espécie humana se encontrava entre os elementos orgânicos contidos \nno globo terrestre?",
+    "options": [
+      "Sim, e veio a seu tempo. É por isso que se diz que o homem tinha sido \nform ado do barro da terra.",
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas."
+    ],
+    "correct": 0,
+    "reference": "Questão 47",
+    "explanation": "Sim, e veio a seu tempo. É por isso que se diz que o homem tinha sido \nform ado do barro da terra.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 48,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "Poderemos conhecer a época do aparecimento do homem e dos outros \n75 – O Livro dos Espíritos  \n \n \n seres vivos na Terra?",
+    "options": [
+      "Não; todos os vossos cálculos são quiméricos .",
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé."
+    ],
+    "correct": 0,
+    "reference": "Questão 48",
+    "explanation": "Não; todos os vossos cálculos são quiméricos .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 49,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "Se o gérmen da espécie humana se achava  entre os elementos orgânicos \ndo globo, por que não se formam espontaneamente homens como n a sua \norigem ?",
+    "options": [
+      "O princípio das coisas está nos segredos de Deus. Entretanto, podemos \ndizer que, uma vez espalhados pela Terra, os homens absorveram em si \nmesmos os elementos necessários à sua própria formação para transmiti -los \nconforme  as leis da reprodução. O mesmo ocorre  com as diferentes espécies \nde seres vivos.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa."
+    ],
+    "correct": 0,
+    "reference": "Questão 49",
+    "explanation": "O princípio das coisas está nos segredos de Deus. Entretanto, podemos \ndizer que, uma vez espalhados pela Terra, os homens absorveram em si \nmesmos os elementos necessários à sua própria formação para transmiti -los \nconforme  as leis da reprodução. O mesmo ocorre  com as diferentes espécies \nde seres vivos.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 50,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "A espécie humana começou por um único homem?",
+    "options": [
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "Não; aquele a quem vocês chamam Adão não foi o primeiro nem o único \na povoar a Terra.",
+      "A resposta correta emerge da síntese entre razão, sentimento e intuição espiritual de cada estudioso sério."
+    ],
+    "correct": 2,
+    "reference": "Questão 50",
+    "explanation": "Não; aquele a quem vocês chamam Adão não foi o primeiro nem o único \na povoar a Terra.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 51,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo III - Da Criação",
+    "question": "Poderemos saber em que época viveu Adão?",
+    "options": [
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "Mais ou menos a que vocês  assin alam: aproximadamente  4 mil anos \nantes do Cristo."
+    ],
+    "correct": 3,
+    "reference": "Questão 51",
+    "explanation": "Mais ou menos a que vocês  assin alam: aproximadamente  4 mil anos \nantes do Cristo.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 52,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "D e onde vêm as diferenças físicas e morais que distinguem as raças \n76 – Allan Kardec  \n \n \n humanas na Terra?",
+    "options": [
+      "Do clima, da vida e dos costumes. Ocorre aí o mesmo que se dá com dois \nfilhos de uma mesma mãe que, educados longe um do outro e de modos \ndiferentes, não se assemelharão  em nada  quanto ao moral.",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo."
+    ],
+    "correct": 0,
+    "reference": "Questão 52",
+    "explanation": "Do clima, da vida e dos costumes. Ocorre aí o mesmo que se dá com dois \nfilhos de uma mesma mãe que, educados longe um do outro e de modos \ndiferentes, não se assemelharão  em nada  quanto ao moral.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 53,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "O homem surgiu em muitos pontos do planeta?",
+    "options": [
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério.",
+      "A resposta correta emerge da síntese entre razão, sentimento e intuição espiritual de cada estudioso sério.",
+      "Sim , em diversas épocas, e essa  é uma das causas da diversidade das \nraças. Depois, dispersando -se por variados climas e se aliando a outras  raça s, \nformaram  novos tipos ."
+    ],
+    "correct": 3,
+    "reference": "Questão 53",
+    "explanation": "Sim , em diversas épocas, e essa  é uma das causas da diversidade das \nraças. Depois, dispersando -se por variados climas e se aliando a outras  raça s, \nformaram  novos tipos .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 54,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "Pelo fato de  a espécie humana não procede r de um só indivíduo, os \nhomens devem deixar de se considerar em como  irmãos?",
+    "options": [
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal.",
+      "Todos os homens são irmãos em Deus, porque eles são animados pelo \nespírito e tendem para o mesmo propósito . Vocês querem sempre tomar as \npalavras ao pé da letra .",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso."
+    ],
+    "correct": 2,
+    "reference": "Questão 54",
+    "explanation": "Todos os homens são irmãos em Deus, porque eles são animados pelo \nespírito e tendem para o mesmo propósito . Vocês querem sempre tomar as \npalavras ao pé da letra .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 55,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "Todos os globos  que circulam  no espaço são habitados?",
+    "options": [
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "Sim , e o homem da Terra  está longe de ser  — como ele acredita — o \nprimeiro em inteligência, em bondade e em perfeição. Há, pois, homens que se \ncreem  bem  fortes e que imaginam que este pequenino globo  tem o privilégio \nexclusivo de conter seres racionais. Orgulho e vaidade! Julgam que Deus criou \no Universo só para eles.",
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior."
+    ],
+    "correct": 1,
+    "reference": "Questão 55",
+    "explanation": "Sim , e o homem da Terra  está longe de ser  — como ele acredita — o \nprimeiro em inteligência, em bondade e em perfeição. Há, pois, homens que se \ncreem  bem  fortes e que imaginam que este pequenino globo  tem o privilégio \nexclusivo de conter seres racionais. Orgulho e vaidade! Julgam que Deus criou \no Universo só para eles.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 56,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "A constituição física dos diversos globos é a mesma?",
+    "options": [
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "Não; eles não se assemelham  em nada ."
+    ],
+    "correct": 3,
+    "reference": "Questão 56",
+    "explanation": "Não; eles não se assemelham  em nada .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 57,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "Como a  constituição física dos mundos  não é mesma para todos , segue daí  \nque os seres que lá habitam tenham uma organizaç ão diferente?",
+    "options": [
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "Sem dúvida s, como  no vosso mundo os peixes são feitos para viver na \nágua e os pássaros no ar.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "Os espíritos comunicantes indicaram que a humanidade ainda não está preparada para compreender plenamente este mistério."
+    ],
+    "correct": 1,
+    "reference": "Questão 57",
+    "explanation": "Sem dúvida s, como  no vosso mundo os peixes são feitos para viver na \nágua e os pássaros no ar.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 58,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "Os mundos que estão mais afastados do Sol estariam  privados  de luz e de \ncalor, já que o Sol  não se mostra para eles senão com a aparência de uma \nestrela?",
+    "options": [
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "Então vocês p ensam que não há outras fontes de luz e calor além do Sol , \nnem levam em conta a eletricidade , que em certos mundos desempenha um \npapel que é desconhec ido por vocês,  e bem mais importante do que na Terra? \nAliás , não dissemos  que todos os seres sejam  da mesma forma  que vocês  e \ncom os órgãos iguais aos vossos ."
+    ],
+    "correct": 3,
+    "reference": "Questão 58",
+    "explanation": "Então vocês p ensam que não há outras fontes de luz e calor além do Sol , \nnem levam em conta a eletricidade , que em certos mundos desempenha um \npapel que é desconhec ido por vocês,  e bem mais importante do que na Terra? \nAliás , não dissemos  que todos os seres sejam  da mesma forma  que vocês  e \ncom os órgãos iguais aos vossos .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 59,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "Os povos têm formado ideias muito divergentes acerca da criação, de \n78 – Allan Kardec  \n \n \n acordo com o grau dos seus conhecimentos . Apoiada na ciência, a razão \nreconheceu a inverossimilhança de certas  teorias. A quela  que é oferecida  \npelos Espíritos confirma a opinião aceita desde há muito pelos homens mais \nesclarecidos.  \nA objeção que se pode fazer a esta teoria  é a de que ela esteja em \ncontradição com o texto dos livros sagrados , mas um exame sério mostrará \nque essa contradição é mais aparente do que real , e que ela decorre da \ninterpretação dada em um sentido muitas vezes alegórico . \nA questão do primeiro homem na pessoa de Adão, como único tronco da \nhumanidade , não é a única sobre a qual  as crenças religiosas tiveram que se \nmodificar. Em determinada época, o movimento da Terra pareceu tão em \noposição ao texto  sagrad o que não houve tipo  de perseguições a que essa \nteoria não tivesse servido de pretexto, e, no entanto, a Terra gira, malgrado  os \nanátemas13, e ninguém hoje poderia  contestá -lo sem ferir  a sua própria razão.  \nA Bíblia diz igualmente que o mundo foi criado em seis dias e estabelece \na época da sua criação há mais ou menos 4 mil anos antes da Era Cristã. \nAnteriormente  a esta data , a Terra não existia; ela foi tirada do nada: o texto é \nformal ; e e is que a ciência positiva  — a ciência inexorável — vem prova r o \ncontrário. A formação do globo está escrita em caracteres irrecusáveis no \nmundo fóssil, e está  provado que os seis dias da criação representam outros \ntantos períodos, cada um talvez de muitas centenas de milhares de anos. Isto \nnão é um sistema, uma doutrina, uma opinião isolada:  é um fato tão certo \ncomo aquele  do movimento da Terra e que a teologia  não pode se recusar  a \nadmitir  — prova evidente d o erro no qual  se pode  cair quando se toma ao pé \nda letra expressões de uma linguagem frequentemente figurada. Devemos \nconcluir daí que a Bíblia é um erro? Não , mas que os homens se equivocaram \nao interpretá -la. \nVasculhando  os arquivos da Terra, a ciência reconheceu a  ordem na qual \nos diferentes seres viventes apareceram na sua superfície, e essa ordem está \nde acordo com o que está indicado  na Gênes is, com a diferença que essa obra, \n \n13 Anátema: sentença de reprovação e maldição lançada pela igreja contra os hereges  \n(aqueles que atentam contra os princípios da religião); excomunhão ; por extensão, qualquer  \ncondenação  contra uma ideia.  — N. T.  \n79 – O Livro dos Espíritos  \n \n \n em vez de sair milagrosamente das mãos de Deus em algumas horas, se \nrealizou, sempre por sua vontade, mas segundo  a lei das forças da natureza, \nem alguns milhões de anos. Por  conta d isso, Deus fic a menor e menos \npoderoso? Sua obra  fica menos sublime por não ter o prestígio da \ninstantaneidade? Evidentemente que não! Seria preciso fazer  uma ideia bem \nmesquinha da Divindade para não reconhecer sua onipotência nas leis \neternas que estabeleceu para reger os mundos. A ciência, longe de \nmenosprezar a obra divina, mostra -nos essa obra  sob um aspecto mais \ngrandioso e mais concorde  com as noções que temos do poder e da majestade \nde Deus, pela razão mesma de ela se realizar  sem derrogar  as leis da \nNatureza.  \nDe acordo com Moisés  nesse ponto , a ciência coloca o homem em último \nlugar na ordem da criação dos seres viventes . Mas Moisé s coloca o dilúvio \nuniversal  no ano 1.654 do mundo, ao passo que a geologia nos mostra  o \ngrande cataclismo como sendo anterior ao aparecimento do homem, tend o \nem vista  que, até hoje, não se encontrou nas camadas primitivas nenhum \ntraço de sua presença, nem da presença dos animais da  mesma  categoria, do \nponto de vista físico. Contudo, nada prova que isso seja impossível ; muitas \ndescobertas já lançaram  dúvidas a esse  respeito. Pode ocorrer então que de \num momento para outro se adquira a certeza material d essa  anterioridade da \nraça humana e logo  se reconhecerá que, sobre esse ponto , assim como sobre \noutros, o texto bíblico seja  uma simbologia . A questão é saber se o cataclismo \ngeológico é o mesmo que  aquele  de Noé ; ora, a duração  necessári a à formação \ndas camadas fósseis não permite confundi -los e, desde que se encontrem  \nvestígios da existência do homem antes da grande catástrofe, ficar ia provado \nque ou Adão não foi o primeiro homem ou que a sua criação se perde na noite \ndos tempos. Contra a evidência não há raciocínios possíveis  e é preciso aceitar \nesse fato, como foi aceito  aquele  do movimento da Terra e os seis períodos da \ncriação.  \nÉ verdade que a existência do homem antes do dilúvio geológico  ainda  é \numa hipótese , mas eis aqui algo que é menos hipotético . Admitindo que o \nhomem tenha aparecido pela primeira vez na Terra 4  mil anos antes do Cristo , \nse 1.650 anos mais tarde toda a raça humana tivesse  sido destruída com \n80 – Allan Kardec  \n \n \n exceção de uma única  família, implica  que o povoamento da Terra data \njustamente  de Noé, ou seja: de 2.350 anos antes da nossa era. Ora, quando os \nhebreus emigraram para o Egito no décimo oitavo século, eles encontraram \nesse país muito povoado e já bastante adiantado em civilização. A História \nprova que  a essa época as Índias e outros países igualmente  estavam \nflorescentes, sem mesmo se ter em conta a cronologia de certos povos que \nremontam a  uma época muito mais longínqua . Nesse caso, seria preciso que \ndo vigésimo quarto ao décimo oitavo século, quer dizer,  num espaço de 600 \nanos, não somente a descendência de um único homem tivesse podido povoar \ntodos os imensos países então conhecidos, suposto que os outros não o \nfossem, mas também que nesse curto espaço de tempo a espécie humana \nhouvesse podido elevar -se da ignorância absoluta do estado primitivo ao mais \nalto grau de desenvolvimento intelectual  — o que é contrário a todas as leis \nantropológicas.  \nA diversidade das raças também vem dar apoio a essa opinião. O clima e \nos hábitos  sem dúvidas produzem modificações no caráter físico , contudo, \nsabemos  até onde pode ir a  influência dessas causas  e o exame fisiológico \ncomprova que há  entre certas raças diferenças constitucionais mais \nprofundas do que as que o clima é capaz de produzir . O cruzamento das raças \ndá origem aos tipos intermediários ; ele tende a apagar as caracte rísticas \nextrem as, mas não os produz ; apenas cria variedades.  Ora, para que tenha \nhavido cruzamento de raças, seria preciso que houvesse raças distintas , e \ncomo explicar  a existência delas atribuindo -lhes uma linhagem  comum e, \nsobretudo, tão pouco afastada? Como admitir que em poucos séculos alguns \ndescendentes de Noé tenham se transformado ao ponto de produzirem a raça \netíope, por exemplo? Uma metamorfose  como essa não é mais admissível do \nque a hipótese de uma linhagem  comum entre o lobo e o cordeiro, entre  o \nelefante e o pulgão, o pássaro e o peixe. Ainda uma vez: nada pode prevalecer \ncontra a evidência dos fatos.  Ao contrário, tudo se explica em se admit indo a \nexistência do homem anterior mente  à época em que lhe é vulgarmente \nassinalada ; admitindo a divers idade das linhagens ; Adão vivendo há 6 mil \nanos, como tendo povoado uma região ainda desabitada; admitindo o dilúvio \nde Noé como  uma catástrofe parcial, confundida com o cataclismo geológico; e \n81 – O Livro dos Espíritos  \n \n \n atentando -se, finalmente, na forma alegórica  própria do estilo oriental  e que \nse encontramos  nos livros sagrados de todos os povos. É por isso que  é \nprudente não contestar  muito ligeiramente  as doutrinas que cedo ou tarde  \npodem, como tantas outras, desmentir aqueles  que as combatem. As ideias \nreligiosas, longe de perderem alguma coisa, se engrandecem  em caminha r ao \nlado da ciência ; esse é o único meio de não mostrar  ao ceticismo  um lado \nvulnerável . \n  \n82 – Allan Kardec  \n \n \n  \nCAPÍTULO IV  \n \nPRINCÍPIO VITAL  \n \nSeres orgânicos e inorgânicos – A vida e a morte  \n– Inteligência e instinto  \n \n \nSeres orgânicos e inorgânicos  \n \nOs seres orgânicos são os que têm em si uma fonte de atividade íntima que \nlhes dá a  vida ; eles  nascem, crescem, reproduzem -se e morrem ; são providos  de \nórgãos especiais para a execução d os diferentes atos da vida, e que são  apropriados \nàs necessidades da sua própria  conservação. Essa classe abrange  os homens, os \nanimais e as plantas. Os s eres inorgânicos são todos aqueles  que não t êm nem  \nvitalidade nem movimentos próprios , e que só são formados  pela agregação  da \nmatéria , tais como os minerais, a água, o ar etc.  \n \n60. É a mesma força que une os elementos da matéria nos corpos orgânicos e \nnos corpos inorgânicos?",
+    "options": [
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "Sim, a lei de atração é a mesma para todos.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina."
+    ],
+    "correct": 2,
+    "reference": "Questão 59",
+    "explanation": "Sim, a lei de atração é a mesma para todos.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 61,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "Há alguma diferença entre a matéria dos corpos orgânicos e a dos corpos \ninorgânicos?",
+    "options": [
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "É sempre a mesma  matéria , todavia  nos corpos orgânicos ela é \nanimalizada.",
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados."
+    ],
+    "correct": 1,
+    "reference": "Questão 61",
+    "explanation": "É sempre a mesma  matéria , todavia  nos corpos orgânicos ela é \nanimalizada.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 62,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "Qual é a causa da animalização da matéria?",
+    "options": [
+      "Sua união com o princípio vital.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "A resposta correta emerge da síntese entre razão, sentimento e intuição espiritual de cada estudioso sério.",
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério."
+    ],
+    "correct": 0,
+    "reference": "Questão 62",
+    "explanation": "Sua união com o princípio vital.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 63,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "O princípio vital reside em algum agente  particular ou não é mais do que \numa propriedade da matéria organizada? Numa palavra, é efeito, ou causa?",
+    "options": [
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "Uma e outra coisa. A vida é um efeito produzido pela  ação de um agente \n83 – O Livro dos Espíritos  \n \n \n sobre a matéria. Esse agente , sem a matéria, não é a vida, do mesmo modo \nque a matéria não pode viver sem esse agente. Ele dá a vida a todos os seres \nque o absorvem e o assimilam.",
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério."
+    ],
+    "correct": 2,
+    "reference": "Questão 63",
+    "explanation": "Uma e outra coisa. A vida é um efeito produzido pela  ação de um agente \n83 – O Livro dos Espíritos  \n \n \n sobre a matéria. Esse agente , sem a matéria, não é a vida, do mesmo modo \nque a matéria não pode viver sem esse agente. Ele dá a vida a todos os seres \nque o absorvem e o assimilam.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 64,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "Vimos que o espírito e a matéria são dois elementos constitutivos do \nUniverso . O princípio vital formaria  um terceiro?",
+    "options": [
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "Sem dúvida é um dos elementos necessários para a  constituição do \nUniverso, mas que também tem sua origem na matéria universal modificada ; \npara vocês, é um elemento, como o oxigênio e o hidrogênio que, entretanto, \nnão são elementos primitivos, pois tudo isso parte  de um mesmo  princípio."
+    ],
+    "correct": 3,
+    "reference": "Questão 64",
+    "explanation": "Sem dúvida é um dos elementos necessários para a  constituição do \nUniverso, mas que também tem sua origem na matéria universal modificada ; \npara vocês, é um elemento, como o oxigênio e o hidrogênio que, entretanto, \nnão são elementos primitivos, pois tudo isso parte  de um mesmo  princípio.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 65,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "O princípio vital reside em algum dos corpos que conhecemos?",
+    "options": [
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "Sua fonte está n o fluido universal ; é o que chamam de fluido magnético \nou fluido elétrico animalizado. Ele é  o intermediário, o elo entre o espírito e a \nmatéria."
+    ],
+    "correct": 3,
+    "reference": "Questão 65",
+    "explanation": "Sua fonte está n o fluido universal ; é o que chamam de fluido magnético \nou fluido elétrico animalizado. Ele é  o intermediário, o elo entre o espírito e a \nmatéria.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 66,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "O princípio vital é o mesmo  para todos os seres orgânicos?",
+    "options": [
+      "Sim, modificado segundo as espécies. É o que lhes dá movimento e \natividade , e os distingue da matéria inerte, pois o movimento da matéria não é \na vida . Ela recebe  esse movimento , ela não o dá.",
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé."
+    ],
+    "correct": 0,
+    "reference": "Questão 66",
+    "explanation": "Sim, modificado segundo as espécies. É o que lhes dá movimento e \natividade , e os distingue da matéria inerte, pois o movimento da matéria não é \na vida . Ela recebe  esse movimento , ela não o dá.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 67,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "A vitalidade é uma propriedade permanente do agente vital, ou essa \nvitalidade se desenvolve apenas pelo funcionamento dos órgãos?",
+    "options": [
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "Ela só se desenvolve com o corpo. Não dissemos que esse agente sem a \nmatéria não é a vida? É preciso a  união d as duas coisas  para produzir a vida."
+    ],
+    "correct": 3,
+    "reference": "Questão 67",
+    "explanation": "Ela só se desenvolve com o corpo. Não dissemos que esse agente sem a \nmatéria não é a vida? É preciso a  união d as duas coisas  para produzir a vida.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 68,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "Qual é a causa da morte dos seres orgânicos?",
+    "options": [
+      "A resposta correta emerge da síntese entre razão, sentimento e intuição espiritual de cada estudioso sério.",
+      "Esgotamento dos órgãos.",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual."
+    ],
+    "correct": 1,
+    "reference": "Questão 68",
+    "explanation": "Esgotamento dos órgãos.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 69,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "Por que uma lesão do coração, antes que uma lesão de outros órgãos, \ncausa a morte?",
+    "options": [
+      "O coração é uma máquina de vida . Porém, o coração não é o único órgão \ncuja lesão ocasiona a morte ; ele não é mais do qu e uma das peças essenciais.",
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior."
+    ],
+    "correct": 0,
+    "reference": "Questão 69",
+    "explanation": "O coração é uma máquina de vida . Porém, o coração não é o único órgão \ncuja lesão ocasiona a morte ; ele não é mais do qu e uma das peças essenciais.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 70,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "Em q ue se torna a  matéria e o princípio vital dos seres orgânicos depois da \nsua morte ?",
+    "options": [
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "A matéria inerte se decompõe e forma  novos corpos ; o princípio vital \nretorna  à massa."
+    ],
+    "correct": 3,
+    "reference": "Questão 70",
+    "explanation": "A matéria inerte se decompõe e forma  novos corpos ; o princípio vital \nretorna  à massa.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 71,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "A inteligência é um atributo do princípio vital?",
+    "options": [
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "Não, pois as plantas vivem e não pensam: elas não têm mais do que a \nvida orgânica. A inteligência e a matéria são independentes, po rque  um corpo \npode viver sem a inteligência ; mas a inteligência só pode se manifestar por \nmeio dos órgãos materiais ; é necessári a a união d o espírito para \n86 – Allan Kardec  \n \n \n intelectuali zar a matéria animalizada .",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior."
+    ],
+    "correct": 2,
+    "reference": "Questão 71",
+    "explanation": "Não, pois as plantas vivem e não pensam: elas não têm mais do que a \nvida orgânica. A inteligência e a matéria são independentes, po rque  um corpo \npode viver sem a inteligência ; mas a inteligência só pode se manifestar por \nmeio dos órgãos materiais ; é necessári a a união d o espírito para \n86 – Allan Kardec  \n \n \n intelectuali zar a matéria animalizada .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 72,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo IV - Do Princípio Vital",
+    "question": "Qual é a fonte da inteligência?",
+    "options": [
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal.",
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério.",
+      "Já o dissemos; a inteligência universal.",
+      "A resposta correta emerge da síntese entre razão, sentimento e intuição espiritual de cada estudioso sério."
+    ],
+    "correct": 2,
+    "reference": "Questão 72",
+    "explanation": "Já o dissemos; a inteligência universal.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 73,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "O instinto é independe nte da inteligência?",
+    "options": [
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "Absolutamente não, po is o instinto é uma espécie de inteligência. É uma \ninteligência não raciocinada;  é por ele que todos os seres proveem  suas \nnecessidades.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal."
+    ],
+    "correct": 2,
+    "reference": "Questão 73",
+    "explanation": "Absolutamente não, po is o instinto é uma espécie de inteligência. É uma \ninteligência não raciocinada;  é por ele que todos os seres proveem  suas \nnecessidades.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 74,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Podemos determinar  um limite  entre o instinto e a inteligência, isto é , \nespecificar onde acaba um e começa a outra?",
+    "options": [
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "Não, po is muitas vezes eles se confundem. Mas, pode -se muito bem \ndistinguir os atos que pertencem a o instinto e aquele s que pertencem à  \ninteligência.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas."
+    ],
+    "correct": 2,
+    "reference": "Questão 74",
+    "explanation": "Não, po is muitas vezes eles se confundem. Mas, pode -se muito bem \ndistinguir os atos que pertencem a o instinto e aquele s que pertencem à  \ninteligência.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 75,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "É exato  se dizer  que as faculdades instintivas diminuem à medida que \ncrescem as faculdades intelectuais?",
+    "options": [
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Não , o instinto existe sempre, mas o homem o despreza . O instinto \ntambém pode conduzir ao bem ; ele quase sempre nos guia e algumas vezes \nmais segura mente  do que a razão. Ele jamais  se transvia.",
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé."
+    ],
+    "correct": 1,
+    "reference": "Questão 75",
+    "explanation": "Não , o instinto existe sempre, mas o homem o despreza . O instinto \ntambém pode conduzir ao bem ; ele quase sempre nos guia e algumas vezes \nmais segura mente  do que a razão. Ele jamais  se transvia.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 76,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Que definição podemos dar dos Espíritos?",
+    "options": [
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "Pode -se dizer que os Espíritos são os seres inteligentes da criação. Eles \npovoam o Universo fora do mundo material."
+    ],
+    "correct": 3,
+    "reference": "Questão 76",
+    "explanation": "Pode -se dizer que os Espíritos são os seres inteligentes da criação. Eles \npovoam o Universo fora do mundo material.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 77,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Os Espíritos são seres distintos da Divindade, ou não seriam  mais do que \nsimples emanações ou porções d a Divindade  e, por essa razão , denominados  \ncriaturas ou  filhos de Deus?",
+    "options": [
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "Meu Deus! Eles s ão obra de Deus, exatamente como um  homem que faz \numa máquina: essa máquina é obra do homem  e não o próprio homem. Sabe-\nse que quando o homem faz alg o belo e útil, ele o chama s eu filho, sua criação. \nPois bem! Acontece o  mesmo com relação a Deus: nós somos seus filhos, pois \nsomos obra  dele .",
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina."
+    ],
+    "correct": 1,
+    "reference": "Questão 77",
+    "explanation": "Meu Deus! Eles s ão obra de Deus, exatamente como um  homem que faz \numa máquina: essa máquina é obra do homem  e não o próprio homem. Sabe-\nse que quando o homem faz alg o belo e útil, ele o chama s eu filho, sua criação. \nPois bem! Acontece o  mesmo com relação a Deus: nós somos seus filhos, pois \nsomos obra  dele .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 78,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Os Espíritos tiveram um princípio ou, assim como Deus, existem desde \ntoda a eternidade?",
+    "options": [
+      "Se os Espíritos não tivessem tido um princípio, eles seriam iguais a \nDeus, quando,  ao contrário, eles são sua criação e se submet em à vontade  \n90 – Allan Kardec  \n \n \n dele . Deus existe de sde toda a eternidade, isso é incontestável ; porém, saber \nquan do e como ele nos criou , nós nada sabemos. Pode -se dizer que nós somos \nsem começo , se com isso se entende que Deus , sendo eterno, há de ter criado \nsem descanso ; mas , quando e como cada um de nós foi feito,  eu repito,  \nninguém o sabe: aí é que está o mistério.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério."
+    ],
+    "correct": 0,
+    "reference": "Questão 78",
+    "explanation": "Se os Espíritos não tivessem tido um princípio, eles seriam iguais a \nDeus, quando,  ao contrário, eles são sua criação e se submet em à vontade  \n90 – Allan Kardec  \n \n \n dele . Deus existe de sde toda a eternidade, isso é incontestável ; porém, saber \nquan do e como ele nos criou , nós nada sabemos. Pode -se dizer que nós somos \nsem começo , se com isso se entende que Deus , sendo eterno, há de ter criado \nsem descanso ; mas , quando e como cada um de nós foi feito,  eu repito,  \nninguém o sabe: aí é que está o mistério.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 79,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Já que há dois elementos gerais no Universo — o elemento inteligente e o \nelemento material —, poderíamos dizer que os Espíritos são formados do \nelemento inteligente assim como os corpos inertes são formados do elemento \nmaterial?",
+    "options": [
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "Isso é evidente.  Os Espíritos são a individualização do princípio \ninteligente, como os corpos são a individualização do princípio material. A \népoca e o modo dessa formação é que são desconhecidos.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina."
+    ],
+    "correct": 1,
+    "reference": "Questão 79",
+    "explanation": "Isso é evidente.  Os Espíritos são a individualização do princípio \ninteligente, como os corpos são a individualização do princípio material. A \népoca e o modo dessa formação é que são desconhecidos.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 80,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "A criação dos Espíritos é permanente ou só ocorreu  no princípio dos \ntempos?",
+    "options": [
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "Ela é  permanente , quer dizer  que Deus jamais deixou de criar.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina."
+    ],
+    "correct": 2,
+    "reference": "Questão 80",
+    "explanation": "Ela é  permanente , quer dizer  que Deus jamais deixou de criar.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 81,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Os Espíritos se formam espontaneamente ou nascem uns dos outros?",
+    "options": [
+      "Deus os cria, como cria todas as outras criaturas, por sua vontade ; \ncontudo,  mais uma vez  dizemos:  a origem deles é mistério.",
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal."
+    ],
+    "correct": 0,
+    "reference": "Questão 81",
+    "explanation": "Deus os cria, como cria todas as outras criaturas, por sua vontade ; \ncontudo,  mais uma vez  dizemos:  a origem deles é mistério.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 82,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Será exato  dizermos que os Espíritos são imateriais?",
+    "options": [
+      "Como se pode definir uma coisa quando  falta m termos de comparação e \ncom uma linguagem insuficiente ? Um cego de nascença poderia definir a luz? \nImaterial não é bem o termo; incorpóreo seria mais exato, pois deve -se \ncompreender bem que, sendo uma criação, o Espírito há de ser alguma coisa ; \né uma matéria quintessenciada15, mas sem analogia  para vocês, e tão etérea \nque não pode ser percebida pel os vossos sentidos.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior."
+    ],
+    "correct": 0,
+    "reference": "Questão 82",
+    "explanation": "Como se pode definir uma coisa quando  falta m termos de comparação e \ncom uma linguagem insuficiente ? Um cego de nascença poderia definir a luz? \nImaterial não é bem o termo; incorpóreo seria mais exato, pois deve -se \ncompreender bem que, sendo uma criação, o Espírito há de ser alguma coisa ; \né uma matéria quintessenciada15, mas sem analogia  para vocês, e tão etérea \nque não pode ser percebida pel os vossos sentidos.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 83,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Os Espíritos têm um fim? Compreendemos que o princípio de onde eles \nemanam seja  eterno, mas o que perguntamos é se sua individualidade têm um \ntérmino,  e se, em dado tempo, mais ou menos longo, o elemento de que eles \nsão formados não se desmanch a e retorn a à massa , como ocorre com os \ncorpos materiais. É difícil compreender  que uma coisa que teve começo possa \nnão ter fim.",
+    "options": [
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Há muitas coisas que vocês não compreendem , porque  voss a \ninteligência é limitada , mas i sso não é uma razão para rejeitá -las. O filho não \ncompreende tudo o que seu pai sabe, nem  o ignorante sabe tudo o que o \nmestre compreende . Dizemos que a existência dos Espíritos não se acaba; isso \né tudo o que podemos dizer  por agora ."
+    ],
+    "correct": 3,
+    "reference": "Questão 83",
+    "explanation": "Há muitas coisas que vocês não compreendem , porque  voss a \ninteligência é limitada , mas i sso não é uma razão para rejeitá -las. O filho não \ncompreende tudo o que seu pai sabe, nem  o ignorante sabe tudo o que o \nmestre compreende . Dizemos que a existência dos Espíritos não se acaba; isso \né tudo o que podemos dizer  por agora .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 84,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Os Espíritos formam um mundo à parte, fora daquele que nós vemos?",
+    "options": [
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério.",
+      "Sim, o mundo dos Espíritos, ou das inteligências incorpóreas.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo."
+    ],
+    "correct": 1,
+    "reference": "Questão 84",
+    "explanation": "Sim, o mundo dos Espíritos, ou das inteligências incorpóreas.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 85,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Qual dos dois  — o mundo espírita ou o mundo corpóreo  — é o principal, \nna ordem das coisas?",
+    "options": [
+      "O mundo espírita ; ele  preexiste e sobrevi ve a tudo.",
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas."
+    ],
+    "correct": 0,
+    "reference": "Questão 85",
+    "explanation": "O mundo espírita ; ele  preexiste e sobrevi ve a tudo.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 86,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "O mundo corporal poderia deixar de existir ou nunca ter existido, sem \naltera r a essência do mundo espírita?",
+    "options": [
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Certamente. Eles são independentes , entretanto , a correlação entre eles \né incessante , pois um reage sobre o outro constantemente ."
+    ],
+    "correct": 3,
+    "reference": "Questão 86",
+    "explanation": "Certamente. Eles são independentes , entretanto , a correlação entre eles \né incessante , pois um reage sobre o outro constantemente .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 87,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Os Espíritos ocupam uma região determinada e circunscrita no espaço?",
+    "options": [
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "Os Espíritos e stão em toda parte ; os espaços infinitos  são habitados por \neles infinitamente . Há muitos deles continuamente  ao redor de vocês  lhes \nobserva ndo e lhes influencia ndo sem que vocês percebam, pois os Espíritos \nsão uma das potências da natureza e os instrumentos de que Deus se serve \npara a execução d e seus desígnios providenciais. No entanto , nem todos vão a \ntoda parte, po is há regiões interditadas aos menos adiantados.",
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal."
+    ],
+    "correct": 1,
+    "reference": "Questão 87",
+    "explanation": "Os Espíritos e stão em toda parte ; os espaços infinitos  são habitados por \neles infinitamente . Há muitos deles continuamente  ao redor de vocês  lhes \nobserva ndo e lhes influencia ndo sem que vocês percebam, pois os Espíritos \nsão uma das potências da natureza e os instrumentos de que Deus se serve \npara a execução d e seus desígnios providenciais. No entanto , nem todos vão a \ntoda parte, po is há regiões interditadas aos menos adiantados.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 88,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Os Espíritos têm uma forma determinada, limitada e constante?",
+    "options": [
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal.",
+      "Aos vossos olhos , não; aos nossos , sim. O Espírito  é, digamos,  uma \nchama, um clarão, ou uma centelha etérea.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina."
+    ],
+    "correct": 2,
+    "reference": "Questão 88",
+    "explanation": "Aos vossos olhos , não; aos nossos , sim. O Espírito  é, digamos,  uma \nchama, um clarão, ou uma centelha etérea.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 89,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Os Espíritos gastam algum tempo para percorrer o espaço?",
+    "options": [
+      "Sim, mas rápido como o pensamento.",
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal."
+    ],
+    "correct": 0,
+    "reference": "Questão 89",
+    "explanation": "Sim, mas rápido como o pensamento.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 90,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "O Espírito que se transporta de um lugar para outro tem consciência da \ndistância que percorre e dos espaços que atravessa, ou bem seria  subitamente \ntransportado ao lugar para onde ele quer ir?",
+    "options": [
+      "As duas coisa s. S e assim quiser, o Espírito pode se dar conta  da \ndistância que ele percorre, mas essa distância também pode desaparecer \n93 – O Livro dos Espíritos  \n \n \n completamente ; isso  dependendo da sua vontade  e ainda da sua natureza \nmais ou menos depurada.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé.",
+      "Esta matéria pertence ao domínio das questões metafísicas que a ciência espírita ainda não pode responder definitivamente.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina."
+    ],
+    "correct": 0,
+    "reference": "Questão 90",
+    "explanation": "As duas coisa s. S e assim quiser, o Espírito pode se dar conta  da \ndistância que ele percorre, mas essa distância também pode desaparecer \n93 – O Livro dos Espíritos  \n \n \n completamente ; isso  dependendo da sua vontade  e ainda da sua natureza \nmais ou menos depurada.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 91,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "A matéria opõe obstáculo aos Espíritos?",
+    "options": [
+      "Não; eles penetram  tudo : o ar, a terra, as águas e até mesmo o fogo lhes \nsão igualmente acessíveis.",
+      "Os espíritos comunicantes indicaram que a humanidade ainda não está preparada para compreender plenamente este mistério.",
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal."
+    ],
+    "correct": 0,
+    "reference": "Questão 91",
+    "explanation": "Não; eles penetram  tudo : o ar, a terra, as águas e até mesmo o fogo lhes \nsão igualmente acessíveis.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 92,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Os Espíritos têm o dom da ubiquidade? Por outras palavras: o Espírito \npode se dividir , ou existir em vários  pontos ao mesmo tempo?",
+    "options": [
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "Não pode haver divisão d o um mesmo Espírito; mas cada qual  é um \ncentro que irradia para diversos lados  e é por isso que ele parece estar em \nmuitos lugares ao mesmo tempo. Vejam o Sol: ele é somente um , mas se \nirradia em todo  o seu entorno e leva seus raios para muito longe. Contudo, ele \nnão se divide.",
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina."
+    ],
+    "correct": 1,
+    "reference": "Questão 92",
+    "explanation": "Não pode haver divisão d o um mesmo Espírito; mas cada qual  é um \ncentro que irradia para diversos lados  e é por isso que ele parece estar em \nmuitos lugares ao mesmo tempo. Vejam o Sol: ele é somente um , mas se \nirradia em todo  o seu entorno e leva seus raios para muito longe. Contudo, ele \nnão se divide.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 93,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "O Espírito, propriamente dito, vive  a descoberto  ou é, como alguns \nsupõem , envolvido  por uma substância qualquer?",
+    "options": [
+      "O Espírito é envolvido por uma substância vaporosa para vocês , mas \nainda bem  densa  para nós; portanto , bastante vaporosa para poder se elevar \nna atmosfera e se transportar  para onde queira.",
+      "Os espíritos comunicantes indicaram que a humanidade ainda não está preparada para compreender plenamente este mistério.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé."
+    ],
+    "correct": 0,
+    "reference": "Questão 93",
+    "explanation": "O Espírito é envolvido por uma substância vaporosa para vocês , mas \nainda bem  densa  para nós; portanto , bastante vaporosa para poder se elevar \nna atmosfera e se transportar  para onde queira.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 94,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "De onde o Espírito tira o seu envoltório  semimaterial ?",
+    "options": [
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério.",
+      "A resposta correta emerge da síntese entre razão, sentimento e intuição espiritual de cada estudioso sério.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "Do fluido universal de cada globo . É por isso que ele não é o mesmo em \ntodos os mundos ; passando de um mundo a outro, o Espírito muda de \nenvoltório, como vocês mudam de roupa."
+    ],
+    "correct": 3,
+    "reference": "Questão 94",
+    "explanation": "Do fluido universal de cada globo . É por isso que ele não é o mesmo em \ntodos os mundos ; passando de um mundo a outro, o Espírito muda de \nenvoltório, como vocês mudam de roupa.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 95,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "O invólucro  semimaterial do Espírito toma  formas determinadas e pode \nser perceptível?",
+    "options": [
+      "Segundo os espíritos instrutores, cada época da humanidade receberá revelações progressivas sobre este mistério.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Sim, uma  forma ao gosto d o Espírit o, e é  assim que ele aparece algumas \nvezes  a vocês , seja nos sonho s, seja  no estado de vigília , pode ndo tomar uma \nforma visível  e até mesmo palpável."
+    ],
+    "correct": 3,
+    "reference": "Questão 95",
+    "explanation": "Sim, uma  forma ao gosto d o Espírit o, e é  assim que ele aparece algumas \nvezes  a vocês , seja nos sonho s, seja  no estado de vigília , pode ndo tomar uma \nforma visível  e até mesmo palpável.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 96,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Os Espíritos são iguais ou existe entre eles uma hierarquia  qualquer ?",
+    "options": [
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "Eles s ão de diferentes ordens, conforme o grau de perfeição ao qual eles  \ntenham alcançado.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados."
+    ],
+    "correct": 1,
+    "reference": "Questão 96",
+    "explanation": "Eles s ão de diferentes ordens, conforme o grau de perfeição ao qual eles  \ntenham alcançado.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 97,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Há um número determinado de ordens ou graus de perfeição entre os  \nEspíritos?",
+    "options": [
+      "Esta questão depende fundamentalmente da análise racional individual e da experiência mediúnica de cada pessoa.",
+      "A codificação espírita deixa esta questão em aberto, estimulando o livre arbítrio na interpretação de cada estudioso.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "O número  de ordens é ilimitado , porque não existe entre elas uma linha \nde demarcação traçada como uma barreira, e assim podem os multiplica r ou \nrestringi r as divisões livremente. No entanto , se considera rmos  as \ncaracterísticas gerais, podem os simplificá -las em  três ordens principais.  \n“Podemos colocar na p rimeira  classe  os que alcançaram a  perfeição: os \npuros Espíritos. Os d a segunda ordem são aqueles  que chegaram no meio da \nescala: o desejo do bem é a preocupação deles . Os do  último grau são aquele s \nque ainda se encontram na parte inferior da escala: os Espíritos imperfeitos. \n95 – O Livro dos Espíritos  \n \n \n Eles são caracterizados pela ignorância, o desejo do mal e todas as paixões \nmás que lhes retardam o  seu adiantamento ."
+    ],
+    "correct": 3,
+    "reference": "Questão 97",
+    "explanation": "O número  de ordens é ilimitado , porque não existe entre elas uma linha \nde demarcação traçada como uma barreira, e assim podem os multiplica r ou \nrestringi r as divisões livremente. No entanto , se considera rmos  as \ncaracterísticas gerais, podem os simplificá -las em  três ordens principais.  \n“Podemos colocar na p rimeira  classe  os que alcançaram a  perfeição: os \npuros Espíritos. Os d a segunda ordem são aqueles  que chegaram no meio da \nescala: o desejo do bem é a preocupação deles . Os do  último grau são aquele s \nque ainda se encontram na parte inferior da escala: os Espíritos imperfeitos. \n95 – O Livro dos Espíritos  \n \n \n Eles são caracterizados pela ignorância, o desejo do mal e todas as paixões \nmás que lhes retardam o  seu adiantamento .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 98,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Os Espíritos d e segunda ordem tem o desejo só d o bem ; teriam eles \ntambém o poder de praticá -lo?",
+    "options": [
+      "A resposta varia de acordo com o grau evolutivo de cada espírito e sua capacidade atual de compreensão espiritual.",
+      "Diferentes centros espíritas e estudiosos apresentam respostas distintas para esta questão fundamental da doutrina.",
+      "Eles dispõe m desse poder segundo  o grau de sua perfeição ; uns têm  \nciência, outros têm sabedoria e bondade , mas t odos têm ainda provas  a se \nsubmeter .",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior."
+    ],
+    "correct": 2,
+    "reference": "Questão 98",
+    "explanation": "Eles dispõe m desse poder segundo  o grau de sua perfeição ; uns têm  \nciência, outros têm sabedoria e bondade , mas t odos têm ainda provas  a se \nsubmeter .",
+    "difficulty": "normal"
+  },
+  {
+    "id": 99,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Os Espíritos da terceira classe  são todos essencialmente maus?",
+    "options": [
+      "Não , uns não fazem nem o mal nem o bem; outros, ao contrário, se \ndivertem com o mal e ficam satisfeitos quando encontram ocasião para \npraticá -lo. Há também os Espíritos levianos ou tolos , mais desordeiro  do que \nmalignos, que se deleitam  mais com a  malícia do que com a malvadez , e que \nencontram seu  prazer em mistificar e causar pequenas contrariedades das \nquais  eles riem.",
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal."
+    ],
+    "correct": 0,
+    "reference": "Questão 99",
+    "explanation": "Não , uns não fazem nem o mal nem o bem; outros, ao contrário, se \ndivertem com o mal e ficam satisfeitos quando encontram ocasião para \npraticá -lo. Há também os Espíritos levianos ou tolos , mais desordeiro  do que \nmalignos, que se deleitam  mais com a  malícia do que com a malvadez , e que \nencontram seu  prazer em mistificar e causar pequenas contrariedades das \nquais  eles riem.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 100,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Observações preliminares  — A classificação dos Espíritos é baseada no \ngrau de adiantamento  deles, nas qualidades que já adquiriram e nas \nimperfeições de que eles ainda têm  a depurar . Essa classificação, aliás, não \ntem nada de absoluta ; nenhuma  categoria apresenta um caráter particular a \nnão ser no seu conjunto geral , mas  de um grau a outro a transição é insensível \ne, nos seus limites, as nuances se apagam como nos reinos da natureza, como \nnas cores do arco -íris, ou ainda  como nos diferentes períodos da vida do \nhomem. Portanto, pode mos  formar maior ou menor número de classes, de \nacordo com  o ponto de vista sob o qual  se considere a questão. Acontece aqui \ncomo  se dá com todos os sistemas de classificaç ões científica s; esses sistemas \npodem ser mais ou menos completos, mais ou menos racionais, mais ou \nmenos cômodos para a inteligência. Porém, sejam quais forem, em nada \nalteram as bases da ciência. Os Espíritos , interrogados  sobre es sa questão , \npuderam então divergir quanto ao número d e categorias, sem que is so tivesse  \nqualquer consequência . Algumas pessoas se armaram dessa aparente \n96 – Allan Kardec  \n \n \n contradição , sem refletir que os Espíritos não dão nenhuma importância  ao \nque é puramente convencional ; para eles, o pensamento é tudo : eles de ixam  \npor nossa conta  a forma, a escolha dos termos  e as classificações, em suma , as \nteorias.  \nAcrescentemos ainda essa  consideração , que não se deve jamais perder \nde vista : é que entre os Espíritos — assim como  entre os homens — há os  que \nsão bastante  ignorantes,  e que nunca ser ia demais se pôr em guarda  contra a \ntendência a crer que todos devam saber tudo  por serem Espíritos . Toda  \nclassificação exige método, análise e conhecimento aprofundado do assunto. \nOra, no mundo dos Espíritos, os que têm  conhecimentos limitados são — \ncomo os ignorantes  deste mundo — inaptos a apreender um  conjunto e  a \nformular uma teoria ; eles não  conhecem  nem  compreendem senão \nimperfeitamente uma classificação qualquer ; para eles,  todos os Espíritos que \nlhes são superiores  são da primeira ordem , sem que possam  apreciar as \ngradações de saber, de capacidade e de moralidade que os distinguem, como \nentre nós um homem rude com relação aos homens civilizados. Mesmo os que \nsejam capazes de tal apreciação podem divergir quanto aos detalhes, segundo \nseu ponto de vista, sobretudo quando uma divisão não tem nada de absolut a. \nLineu, Jussieu e Tournefort tiveram cada um o seu método, e a botânica não se \nmodificou por causa disso, pois nenhum deles inventou nem as plantas nem \nsuas características : eles a penas observaram as semelhanças d as quais \nformaram os grupos ou classes.  Foi assim que nós procedemos ; nós n ão \ninventamos nem os Espíritos nem suas características : vimos e observamos, \njulgamo -los pelas suas palavras e seus atos, depois os classificamos pelas \nsimilaridades , baseando -nos em dados que eles próprios nos forneceram.  \nOs Espíritos admitem geralmente três categorias principais, ou três \ngrandes divisões. Na última, a que fica na parte inferior da escala, estão os \nEspíritos imperfeitos, caracterizados pela predominância da matéria sobre o \nespírito e pela propensão para o mal. Aqueles da segunda categoria são \ncaracteriza dos pela predominância do espírito sobre a matéria e pelo desejo \ndo bem: são os bons Espíritos. A primeira, finalmente, abrange  os Espíritos \npuros, aquele s que atingiram o grau supremo da perfeição.  \nEssa divisão nos pareceu perfeitamente racional e apresenta os \n97 – O Livro dos Espíritos  \n \n \n caracteres bem definidos;  só nos restava destacar , por um número suficiente \nde subdivisões, as principais nuances do conjunto ; é o que temos feito , com a \ncolaboração dos Espíritos, cujas benévolas instruções jamais nos faltaram.  \nCom o auxílio desse quadro, será fácil determinar  a faixa e o grau de \nsuperioridade ou de inferioridade dos Espíritos com os quais podemos  entrar \nem contato  e, por conseguinte, o grau de confiança e de estima que mereçam. \nDe certo modo, essa é a chave da ciência espírita, pois  só isso  pode explicar as \nanomalias que as comunicações apresentam, esclarecendo -nos acerca das \ndesigualdades intelectuais e morais dos Espíritos. Todavia, observaremos  que \nos Espíritos não pertence m exclusivamente  sempre  a essa  ou aquela  classe ; o \nprogresso deles não se realiza senão gradualmente, e muitas vezes mais num \nsentido do que em outro  eles  pode m reunir as características de várias \ncategorias  — o que é fácil de se observar pela sua linguagem e seus atos . \n \n \nTERCEIRA ORDEM  – ESPÍRITOS IMPERFEITOS  \n \n101. Características gerais  — Predominância da matéria sobre o espírito. \nPropensão ao mal. Ignorância, orgulho, egoísmo e todas as más paixões que \ndelas são consequentes.  \nEles t êm a intuição de Deus, mas não o compreendem.  \nNem todos são essencialmente maus ; em alguns há mais leviandade, \ninconsequência  e malícia do que verdadeira maldade. Uns não fazem o bem \nnem o mal , mas pelo simples fato de não fazerem o bem, já mostram a sua \ninferioridade. Outros, ao contrário, se deleitam  com o mal e ficam satisfeitos \nquando encontram  ocasião para praticar  o mal . \nEles podem aliar a  inteligência à maldade ou à malícia , porém, seja qual \nfor o seu grau de desenvolvimento intelectual, suas ideias são pouco elevadas \ne seus sentimentos mais ou menos ignóbeis . \nSeus conhecimentos sobre as  coisas do mundo espírita são limitados e o \npouco que eles sabem se confunde com as ideias e os preconceitos da vida \ncorporal. Não nos podem dar mais do que noções falsas e incompletas , mas o \nobservador atento frequentemente encontra  nas suas comunicações  — ainda \n98 – Allan Kardec  \n \n \n que imperfeitas  — a confirmação das grandes verdades ensinadas pelos \nEspíritos superiores.  \nSeu caráter se revela pela sua  linguagem. Todo Espírito que em suas \ncomunicações denota  um pensamento mau pode ser colocado  na terceira \nordem ; consequentemente, todo pensamento mau que nos é sugerido vem de \num Espírito des ta ordem.  \nEles observam  a felicidade dos bons , e esse espetáculo para eles é um \ntormento  incessante , porque eles  experimentam todas as angústias que a \ninveja e o ciúme podem causar.  \nConservam a lembrança e a percepção dos sofrimentos da vida corpórea \ne essa impressão é muitas vezes mais penosa do que a realidade. Então eles \nsofrem verdadeiramente, d os males de que padeceram e daqueles  que \nacarretaram  aos outros. E como sofrem por longo tempo, acreditam  que \nsofrerão para sempre ; Deus, para puni -los, quer que assim acreditem . \nPodem os dividi -los em cinco classes principais:  \n \n102. Décima classe . ESPÍRITOS IMPUROS  — São inclinados ao mal, de que \nfazem o objeto de suas preocupações. Como Espíritos, eles dão conselhos \ntraiçoeiros, sopram a discórdia e a desconfiança , e se mascaram de todas as \nmaneiras para melhor enganar. Ligam -se aos homens de caráter bastante \nfraco para cederem às suas sugestões a fim de levá -los à perdição, satisfeitos \nde poderem  retardar o seu adiantamento, fazendo -os cair nas provas  a que se \nsubmetem . \nNas manifestações , nós os reconhecemos  pela sua linguagem ; a \nbanalidade e a grosseria das expressões  — tanto nos Espíritos quanto  nos \nhomens  — é sempre um indício de inferioridade moral, quando não \nintelectual. Suas comunicações denotam  a baixeza de suas inclinações e, se \ntentam iludir, falando de uma maneira sensata , não conseguem sustentar por \nmuito tempo o  seu papel e acabam sempre traindo sua origem . \nAlguns povos fizeram deles  divindades maléficas , outros os designam \npelos nomes de demônios, maus gênios  e Espíritos do mal.  \nQuando  estão encarnados, os seres viventes que eles animam são  \npropensos a todos os vícios que gera m as paixões vis e degradantes: \n99 – O Livro dos Espíritos  \n \n \n sensualidade, crueldade, falsidade, hipocrisia, ganância, avareza  desprezível. \nEles f azem o mal por prazer, muitas das vezes sem motivo, e por ódio ao bem \nquase sempre escolhem suas vítimas entre as pessoas honestas. São flagelos \npara a humanidade, qualquer que seja a faixa  social a que pertençam, e o \nverniz da civilização não os livra da vergonha e da desonra.  \n \n103. Nona classe . E SPÍRITOS LEVIANOS  — São ignorantes, maliciosos, \ninconsequentes e zombeteiros; se metem em tudo e respondem a tudo sem se \nimportarem com a verdade. Deleitam -se em causar pequenos males  e \npequen os gozos , em causar aborrecimentos , em induzir maliciosamente  ao \nerro por meio de mistificações e de travessuras . A esta classe pertencem os \nEspíritos vulgarmente designados  pelos nomes de  duendes , trasgos , gnomos , \ndiabretes . Eles estão sob a dependência d e Espíritos superiores, que muitas \nvezes se servem deles , como fazemos com os nossos empregados . \nEm suas comunicações com os homens, a linguagem deles é muitas vezes \nespirituosa  e jocosa , mas quase sempre sem profund idade; a proveitam -se das \nesquisitices e d as tolices que eles expressam em traços mordazes  e satíricos. \nQuando usam supostos nomes, é mais por malícia do que por maldade.  \n \n104. Oitava classe . ESPÍRITOS PSEUDOSSÁBIOS  — Seus  conhecimentos são \nbastante amplos, porém creem saber mais do que realmente sabem. Tendo \nrealizado alguns progressos sob diversos pontos de vista, a linguagem deles \naparenta  um caráter sério  que pode iludir quanto às suas capacidades e luzes ; \nmas na maioria das vezes isso não passa de um reflexo dos preconceitos e \nideias sistemáticas da vida terre stre;  é uma mistura de algumas verdades com \nos erros mais absurdos , no meio  dos quais penetram a presunção, o orgulho, o \nciúme e a obstinação de que ainda não puderam se livrar.  \n \n105. Sétima classe . ESPÍRITOS NEUTROS — Estes não são n em bastante bons \npara fazer o bem, nem bastante maus para fazer o mal ; pendem tanto para um \ncomo para o outro e não ultrapassam a condição comum da humanidade, seja \npara a  moral, seja para a  inteligência. Apegam -se às coisas deste mundo, \ndentre as quais  eles sentem falta das  grosseiras alegrias.  \n100 – Allan Kardec  \n \n \n 106. Sexta classe . ESPÍRITOS BATEDORES E PERTURBADORES  — Propriamente \nfalando, estes Espíritos não formam uma classe separada quanto às  suas \nqualidades pessoais ; eles p odem pertencer a  todas as classes  da terceira \nordem. Geralmente m anifestam sua presença por efeitos sensíveis e físicos, \ntais como pancadas, movimento e deslocamento anormal de corpos sólidos, \nagitação do ar etc. Mais do que outros, parecem apegados  à matéria ; parecem \nser os agentes principais das alterações dos elementos do globo  — seja \nagindo sobre o ar, a água, o fogo  e os corpos duros, ou nas entranhas da Terra. \nReconhece -se que esses fenômenos não surgem  de uma causa fortuita  ou \nfísica, ao passo que eles têm um  caráter intencional e inteligente. Todos os \nEspíritos podem produzir tais fenômenos, mas os Espíritos elevad os \nnormalmente deixam esses fenômenos entre as  atribuições dos Espíritos \nsubordinados, que são mais aptos para as coisas materiais do que para as \ncoisas intelig entes.  Quando  julgam as manifestações desse gênero  são uteis , \neles se servem desses Espíritos como auxiliares.  \n \n \nSEGUNDA ORDEM — BONS ESPÍRITOS  \n \n107. Características gerais  — Predominância do espírito sobre a matéria; \ndesejo do bem. Suas qualidades e seu poder de fazer o bem são proporcionais  \nao grau de adiantamento que tenham  alcançado; uns têm a ciência, outros a \nsabedoria e a bondade ; os mais avançados reúnem o saber às qualidades \nmorais. Não estando ainda completamente desmaterializados, conforme sua \ncategoria, eles conservam mais ou menos os traços da existência corporal, \nassim na forma da linguagem como nos seus hábitos, entre os quais se \nencontram  mesmo algumas de suas manias ; de outro modo, eles seriam \nEspíritos perfeitos.  \nCompreendem Deus e o infinito e já gozam da felicidade dos bons. São \nfelizes pelo bem que fazem e pelo mal que impedem. O amor que os une é \npara eles a fonte de uma indescritível felicidade que não é alterada nem pela \ninveja, nem pelos remorsos, nem por nenhuma das más paixões que são o \ntormento dos Espíritos imperfeitos. Mas todos ainda têm que passar por \n101 – O Livro dos Espíritos  \n \n \n provas, até que atinjam a perfeição  absoluta . \nComo Espíritos, eles inspiram  bons pensamentos, desviam os homens da \nsenda do mal, protegem na vida aqueles  que se mostram dignos de ssa \nproteção e neutralizam a influência dos Espíritos imperfeitos naqueles que \nnão se comprazem em se submeterem a ela . \nDentre estes, os que estão encarnados são bondosos e benevolentes para \ncom os seus semelhantes ; não são movidos nem pel o orgulho , nem pelo \negoísmo, nem pel a ambição ; não experimentam nem o ódio, nem o rancor, \nnem a inveja e nem o  ciúme ; eles  fazem o bem pelo bem.  \nA esta ordem pertencem os Espíritos designados n as crenças comuns \npelos nomes de bons gênios , gênios protetores , Espíritos do bem . Em épocas \nde superstições e de ignorância, eles são tomados como divindades  \nbenfeitoras.  \nPode mos  dividi -los em quatro grupos principais:  \n \n108. Quinta classe . ESPÍRITOS BENEVOLENTES  — Sua qualidade dominante  é a \nbondade;  eles se a legram em prestar serviço aos homens e lhes proteg er, \nporém seu saber é limitado : seu progre sso é  mais desenvolvido no sentido \nmoral do que no sentido intelectual.  \n \n109. Quarta classe . ESPÍRITOS INSTRUÍDOS  — O que principalmente os \ndistingue  é a amplitude  de seus conhecimentos. Estes se p reocupam menos \ncom as questões morais do que com as questões científica s, para as quais eles \ntêm maior aptidão ; entretanto, só encaram a ciência do ponto de vista da sua \nutilidade e jamais dominados por quaisquer paixões que são próprias dos \nEspíritos imperfeitos.  \n \n110. Terceira classe . ESPÍRITOS SÁBIOS  — As qualidades morais da ordem \nmais elevada formam  seu caráter distintivo . Sem possuírem conhecimentos  \nilimitados , eles são dotados de uma capacidade intelectual que lhes permite \num julgamento  correto a respeito  dos homens e das coisas.  \n \n111. Segunda classe . ESPÍRITOS SUPERIORES  — Eles  reúnem a ciência, a \nsabedoria e a bondade. Sua linguagem só exala benevolência; é uma \n102 – Allan Kardec  \n \n \n linguagem constantemente digna, elevada e por vezes sublime. Sua \nsuperioridade lhes torna  mais aptos do que os outros a nos dar noções mais \njustas  sobre as coisas do mundo incorpóreo, dentro dos limites do que é \npermitido ao homem saber. Comunicam -se voluntariamente com aqueles  que \nprocuram a verdade de boa -fé e cuja alma já está bastante desprendida das \nligações terrenas  para compreendê -la; porém, afastam -se daqueles que são \nanimados apenas pela curiosidade ou que, por influência da matéria, \ntransviam -se da  prática do bem.  \nQuando excepcionalmente se encarna m na Terra, é para nela cumprir \numa missão de progresso e então nos oferecem o tipo da perfeição a qual a \nhumanidade pode aspirar neste mundo.  \n \n \nPRIMEIRA ORDEM — ESPÍRITOS PUROS  \n \n112. Características gerais  — Nenhuma influência da matéria. Absoluta \nsuperioridade intelectual e moral em relação aos Espíritos das outras ordens.  \n \n113. Primeira classe. C lasse única  — Eles já p ercorreram todos os graus da \nescala e se depuraram de todas as impurezas da matéria. Tendo alcançado a \nsoma de perfeição de que a criatura é capaz, estes não têm mais que sofrer \nnem provas nem expiações. Não estando mais sujeitos à reencarnação em \ncorpos perecíveis, realizam a vida eterna no seio de Deus.  \nDesfrutam de uma felicidade inalterável, porque não estão  sujeitos nem \nàs necessidades nem às vicissitudes da vida material ; contudo, e ssa felicidade  \nnão é a quela  de uma  ociosidade monótona  passada  em uma perpétua \ncontemplação . Eles são os mensageiros e os ministros de Deus, cujas ordens \neles executam para manutenção da harmonia universal. Comandam a todos os \nEspíritos que lhes são inferiores, ajudam -lhes  a se aperfeiçoa rem e lhes \ndesignam suas missões. Auxiliar os homens nas suas aflições, incentivá -los ao \nbem ou à expiação das faltas que os distancia m da suprema felicidade : eis \npara eles uma grata ocupação. São chamados às vezes pelos nomes de anjos, \narcanjos ou serafins.  \nOs homens podem e ntrar em  comunicação com eles, mas seria muito  \npresunçoso aquele que pretendesse tê -los constantemente às suas ordens.  \n103 – O Livro dos Espíritos  \n \n \n Progressão dos Espíritos  \n \n114. Os Espíritos são bons ou maus por natureza , ou são eles mesmos que se \nmelhoram?",
+    "options": [
+      "Esta questão permanece em debate entre os estudiosos, pois os espíritos superiores não chegaram a um consenso definitivo.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "Segundo Allan Kardec, esta matéria exige estudo e reflexão mais aprofundados antes de se chegar a conclusões definitivas.",
+      "São os próprios Espíritos que se melhoram : em se melhorando, eles \npassam de uma ordem inferior para outra mais elevada."
+    ],
+    "correct": 3,
+    "reference": "Questão 100",
+    "explanation": "São os próprios Espíritos que se melhoram : em se melhorando, eles \npassam de uma ordem inferior para outra mais elevada.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 115,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Entre os Espíritos, uns terão sido criados bons e outros  maus?",
+    "options": [
+      "Deus criou todos os Espíritos simples e ignorantes, isto é, sem \nconhecimento. A cada qual  ele deu uma missão com a finalidade  de lhes  \nesclarecer e de lhes fazer  chegar  progressivamente à perfeição pelo \nconhecimento  da verdade  e para lhes aproxim ar dele. A felicidade eterna  e \nsem perturbação para eles está nesta perfeição . Os Espíritos adquirem esses \nconhecimentos passando pelas provas que Deus lhes impõe. Uns aceitam \nessas provas com submissão e chegam mais rapidamente à meta que de sua \ndestinação; o utros, só não se submetem  a elas senão com lamentação e, por \ncausa dessa falta, permanecem afastados da perfeição e da prometida  \nfelicidade.",
+      "A doutrina espírita reconhece múltiplas verdades parciais sobre este tema, todas contribuindo para a compreensão maior.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal.",
+      "Esta questão transcende a capacidade de compreensão humana atual e deve ser aceita primordialmente pela fé."
+    ],
+    "correct": 0,
+    "reference": "Questão 115",
+    "explanation": "Deus criou todos os Espíritos simples e ignorantes, isto é, sem \nconhecimento. A cada qual  ele deu uma missão com a finalidade  de lhes  \nesclarecer e de lhes fazer  chegar  progressivamente à perfeição pelo \nconhecimento  da verdade  e para lhes aproxim ar dele. A felicidade eterna  e \nsem perturbação para eles está nesta perfeição . Os Espíritos adquirem esses \nconhecimentos passando pelas provas que Deus lhes impõe. Uns aceitam \nessas provas com submissão e chegam mais rapidamente à meta que de sua \ndestinação; o utros, só não se submetem  a elas senão com lamentação e, por \ncausa dessa falta, permanecem afastados da perfeição e da prometida  \nfelicidade.",
+    "difficulty": "normal"
+  },
+  {
+    "id": 116,
+    "book": "Livro dos Espíritos",
+    "chapter": "Capítulo V - Dos Espíritos",
+    "question": "Há Espíritos que permane cem perpetuamente nas faixas  inferiores?",
+    "options": [
+      "Os espíritos superiores revelaram que esta verdade será plenamente compreendida apenas em estágios evolutivos mais avançados.",
+      "Segundo interpretações divergentes da codificação kardecista, esta matéria admite diferentes perspectivas válidas.",
+      "A doutrina espírita sugere múltiplas interpretações possíveis, cabendo ao estudioso escolher conforme sua intuição pessoal.",
+      "Não; todos se torna m perfeitos ; eles m udam de ordem, mas é devagar , \npois , como já dissemos  de uma outra vez , um pai justo e misericordioso não \npode banir seus filhos  eternamente . Vocês, porventura , querem  que Deus  — \ntão grande, tão bom, tão justo  — fosse pior do que vocês mesmos?"
+    ],
+    "correct": 3,
+    "reference": "Questão 116",
+    "explanation": "Não; todos se torna m perfeitos ; eles m udam de ordem, mas é devagar , \npois , como já dissemos  de uma outra vez , um pai justo e misericordioso não \npode banir seus filhos  eternamente . Vocês, porventura , querem  que Deus  — \ntão grande, tão bom, tão justo  — fosse pior do que vocês mesmos?",
+    "difficulty": "normal"
+  }
+]
