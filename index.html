@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Show do Espiritismo - Quiz Interativo</title>
+<title>EspiriQuiz - O Livro dos Espíritos</title>
 
 <script src="https://cdn.tailwindcss.com"></script>
 <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
@@ -106,23 +106,6 @@ body{
   to { opacity: 1; transform: translateY(0); }
 }
 
-.pulse-slow {
-  animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-}
-
-@keyframes pulse {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0.5; }
-}
-
-.badge {
-  display: inline-block;
-  padding: 0.25rem 0.75rem;
-  border-radius: 9999px;
-  font-size: 0.75rem;
-  font-weight: 600;
-}
-
 .help-used {
   opacity: 0.3;
   pointer-events: none;
@@ -137,6 +120,42 @@ body{
   10%, 90% { transform: translateX(0); opacity: 1; }
   100% { transform: translateX(400px); opacity: 0; }
 }
+
+.ai-message {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.2), rgba(99, 102, 241, 0.2));
+  border-left: 4px solid #8b5cf6;
+  animation: slideIn 0.5s ease;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.loading-dots::after {
+  content: '...';
+  animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+  0%, 20% { content: '.'; }
+  40% { content: '..'; }
+  60%, 100% { content: '...'; }
+}
+
+.sound-control {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.exit-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 1000;
+}
 </style>
 </head>
 
@@ -147,7 +166,11 @@ body{
 
 const {useState, useEffect, useRef} = React
 
-// Sons zen premium - URLs diretas e confiáveis
+// CONFIGURAÇÃO DA API GEMINI
+const GEMINI_API_KEY = 'AIzaSyD7Y1643CJQ-h0iMj1_MJ6JLeBXVqXtnhg' // Substitua pela sua chave
+const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent'
+
+// Sons zen premium
 const SOUNDS = {
   ambience: 'https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3',
   correct: 'https://assets.mixkit.co/active_storage/sfx/2869/2869-preview.mp3',
@@ -175,8 +198,38 @@ const ACHIEVEMENTS = [
   { id: 'scholar', name: 'Estudioso', icon: '📚', desc: 'Jogue todos os capítulos' },
   { id: 'master', name: 'Mestre Espírita', icon: '👑', desc: '10 jogos perfeitos' },
   { id: 'no_help', name: 'Autodidata', icon: '🎓', desc: 'Vencer sem usar ajudas' },
-  { id: 'high_score', name: 'Recorde Quebrado', icon: '🏆', desc: 'Novo recorde pessoal' }
+  { id: 'high_score', name: 'Recorde Quebrado', icon: '🏆', desc: 'Novo recorde pessoal' },
+  { id: 'ai_seeker', name: 'Buscador da Sabedoria', icon: '🧠', desc: 'Use a IA 10 vezes' }
 ]
+
+// Componente de controle de som
+function SoundControl({ soundEnabled, setSoundEnabled }) {
+  return (
+    <button 
+      onClick={() => setSoundEnabled(!soundEnabled)}
+      className="sound-control bg-slate-800/80 backdrop-blur-sm p-3 rounded-full shadow-lg hover:bg-slate-700 transition-all"
+      title={soundEnabled ? "Desativar som" : "Ativar som"}
+    >
+      {soundEnabled ? (
+        <span className="text-2xl">🔊</span>
+      ) : (
+        <span className="text-2xl">🔇</span>
+      )}
+    </button>
+  )
+}
+
+// Componente de botão sair
+function ExitButton({ onExit }) {
+  return (
+    <button 
+      onClick={onExit}
+      className="exit-button bg-red-600/80 backdrop-blur-sm px-4 py-2 rounded-full shadow-lg hover:bg-red-700 transition-all font-semibold text-sm"
+    >
+      ← Sair
+    </button>
+  )
+}
 
 function App(){
 
@@ -192,7 +245,7 @@ function App(){
   const [soundEnabled, setSoundEnabled] = useState(true)
   const [startTime, setStartTime] = useState(null)
   
-  // Ajudas do "Show do Milhão"
+  // Ajudas do jogo
   const [helps, setHelps] = useState({
     skip: true,
     eliminate: true,
@@ -213,12 +266,12 @@ function App(){
     totalCorrect: 0,
     gamesWithoutHelp: 0,
     fastestTime: null,
-    chaptersPlayed: []
+    chaptersPlayed: [],
+    aiUsageCount: 0
   })
 
   // Modo estudo
   const [studyMode, setStudyMode] = useState(false)
-  const [studyFilter, setStudyFilter] = useState("all")
 
   // Ranking local
   const [ranking, setRanking] = useState([])
@@ -226,33 +279,60 @@ function App(){
   // Audio refs
   const audioRefs = useRef({})
 
+  // IA Features
+  const [dailyMessage, setDailyMessage] = useState(null)
+  const [aiMentorTip, setAiMentorTip] = useState(null)
+  const [aiDeepDive, setAiDeepDive] = useState(null)
+  const [loadingAI, setLoadingAI] = useState(false)
+
   useEffect(() => {
     // Carregar perguntas
     fetch("questions_improved.json")
       .then(r => r.json())
       .then(data => {
-        setBank(data)
+        // Limpar espaços extras das perguntas
+        const cleanedData = data.map(q => ({
+          ...q,
+          question: q.question.replace(/\s+/g, ' ').trim(),
+          options: q.options.map(opt => opt.replace(/\s+/g, ' ').trim())
+        }))
+        setBank(cleanedData)
       })
       .catch(err => {
         console.error("Erro ao carregar perguntas:", err)
-        // Fallback para questions.json original
-        fetch("questions.json").then(r => r.json()).then(setBank)
+        fetch("questions.json").then(r => r.json()).then(data => {
+          const cleanedData = data.map(q => ({
+            ...q,
+            question: q.question.replace(/\s+/g, ' ').trim(),
+            options: q.options.map(opt => opt.replace(/\s+/g, ' ').trim())
+          }))
+          setBank(cleanedData)
+        })
       })
 
     // Carregar dados salvos
-    const savedStats = localStorage.getItem('espiritismo-stats')
+    const savedStats = localStorage.getItem('espiriquiz-stats')
     if(savedStats) {
       setStats(JSON.parse(savedStats))
     }
 
-    const savedAchievements = localStorage.getItem('espiritismo-achievements')
+    const savedAchievements = localStorage.getItem('espiriquiz-achievements')
     if(savedAchievements) {
       setAchievements(JSON.parse(savedAchievements))
     }
 
-    const savedRanking = localStorage.getItem('espiritismo-ranking')
+    const savedRanking = localStorage.getItem('espiriquiz-ranking')
     if(savedRanking) {
       setRanking(JSON.parse(savedRanking))
+    }
+
+    // Carregar mensagem diária salva (válida por 24h)
+    const savedDailyMessage = localStorage.getItem('espiriquiz-daily-message')
+    const savedDailyDate = localStorage.getItem('espiriquiz-daily-date')
+    const today = new Date().toDateString()
+    
+    if(savedDailyMessage && savedDailyDate === today) {
+      setDailyMessage(savedDailyMessage)
     }
 
     // Pré-carregar áudios
@@ -294,11 +374,150 @@ function App(){
     }
   }
 
+  // Função para chamar API Gemini
+  async function callGeminiAPI(prompt) {
+    if(GEMINI_API_KEY === 'SUA_CHAVE_API_AQUI') {
+      return "⚠️ Configure sua chave API do Gemini no código para usar esta funcionalidade.\n\nObtenha sua chave em: https://makersuite.google.com/app/apikey"
+    }
+
+    try {
+      const response = await fetch(`${GEMINI_API_URL}?key=${GEMINI_API_KEY}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          contents: [{
+            parts: [{
+              text: prompt
+            }]
+          }],
+          generationConfig: {
+            temperature: 0.9,
+            topK: 1,
+            topP: 1,
+            maxOutputTokens: 2048,
+          }
+        })
+      })
+
+      const data = await response.json()
+      
+      if(data.candidates && data.candidates[0]) {
+        return data.candidates[0].content.parts[0].text
+      } else {
+        return "Desculpe, não consegui gerar uma resposta no momento."
+      }
+    } catch (error) {
+      console.error('Erro ao chamar Gemini API:', error)
+      return "Erro ao conectar com a IA. Verifique sua conexão e chave API."
+    }
+  }
+
+  // Funcionalidade 1: Mensagem de Luz Diária
+  async function generateDailyMessage() {
+    setLoadingAI(true)
+    
+    const prompt = `Você é um mentor espírita profundo conhecedor de "O Livro dos Espíritos" de Allan Kardec.
+    
+Gere uma reflexão espiritual inspiradora para começar o dia, baseada nos princípios da doutrina espírita.
+
+A mensagem deve:
+- Ter entre 2-3 parágrafos
+- Ser reconfortante e motivadora
+- Citar conceitos do Espiritismo (caridade, evolução espiritual, reencarnação, lei de causa e efeito)
+- Terminar com uma frase de Allan Kardec ou dos Espíritos Superiores
+
+Formato: Texto direto, sem títulos ou marcadores.`
+
+    const message = await callGeminiAPI(prompt)
+    setDailyMessage(message)
+    
+    // Salvar para não gerar novamente hoje
+    localStorage.setItem('espiriquiz-daily-message', message)
+    localStorage.setItem('espiriquiz-daily-date', new Date().toDateString())
+    
+    setLoadingAI(false)
+  }
+
+  // Funcionalidade 2: Dica do Mentor (Socrática)
+  async function generateMentorTip() {
+    if(!questions[idx]) return
+    
+    setLoadingAI(true)
+    
+    const q = questions[idx]
+    const prompt = `Você é um mentor espírita sábio que usa o método socrático.
+
+Pergunta: "${q.question}"
+
+Forneça uma dica que:
+- NÃO revele a resposta direta
+- Faça perguntas que guiem o raciocínio
+- Use analogias da doutrina espírita
+- Estimule a reflexão profunda
+- Máximo de 3-4 frases
+
+Seja um verdadeiro mentor, não um professor que dá respostas prontas.`
+
+    const tip = await callGeminiAPI(prompt)
+    setAiMentorTip(tip)
+    
+    // Atualizar contador de uso de IA
+    const newStats = {...stats, aiUsageCount: stats.aiUsageCount + 1}
+    setStats(newStats)
+    localStorage.setItem('espiriquiz-stats', JSON.stringify(newStats))
+    
+    if(newStats.aiUsageCount >= 10) {
+      unlockAchievement('ai_seeker')
+    }
+    
+    setLoadingAI(false)
+  }
+
+  // Funcionalidade 3: Aprofundamento Doutrinário
+  async function generateDeepDive() {
+    if(!questions[idx]) return
+    
+    setLoadingAI(true)
+    
+    const q = questions[idx]
+    const correctAnswer = q.options[q.correct]
+    
+    const prompt = `Você é um estudioso da doutrina espírita codificada por Allan Kardec.
+
+Pergunta: "${q.question}"
+Resposta correta: "${correctAnswer}"
+
+Forneça uma explicação profunda que:
+- Explique a BASE FILOSÓFICA desta resposta segundo a lógica kardecista
+- Cite a BASE CIENTÍFICA (para época de Kardec) que sustenta esta ideia
+- Relacione com outros princípios da doutrina
+- Use linguagem acessível mas profunda
+- Máximo de 4-5 parágrafos
+
+Seja preciso e cite a lógica racional do Espiritismo.`
+
+    const deepDive = await callGeminiAPI(prompt)
+    setAiDeepDive(deepDive)
+    
+    // Atualizar contador de uso de IA
+    const newStats = {...stats, aiUsageCount: stats.aiUsageCount + 1}
+    setStats(newStats)
+    localStorage.setItem('espiriquiz-stats', JSON.stringify(newStats))
+    
+    if(newStats.aiUsageCount >= 10) {
+      unlockAchievement('ai_seeker')
+    }
+    
+    setLoadingAI(false)
+  }
+
   function unlockAchievement(achievementId) {
     if(!achievements.includes(achievementId)) {
       const newAchievements = [...achievements, achievementId]
       setAchievements(newAchievements)
-      localStorage.setItem('espiritismo-achievements', JSON.stringify(newAchievements))
+      localStorage.setItem('espiriquiz-achievements', JSON.stringify(newAchievements))
       
       const achievement = ACHIEVEMENTS.find(a => a.id === achievementId)
       setNewAchievement(achievement)
@@ -319,7 +538,7 @@ function App(){
       filtered = bank
     }
 
-    const numQuestions = studyMode ? filtered.length : 
+    const numQuestions = mode === 'study' ? filtered.length : 
                          difficulty === "easy" ? 10 : 
                          difficulty === "hard" ? 20 : 15
     
@@ -333,6 +552,8 @@ function App(){
     setHelps({ skip: true, eliminate: true, hint: true })
     setEliminatedOptions([])
     setShowHint(false)
+    setAiMentorTip(null)
+    setAiDeepDive(null)
     playSound('transition')
   }
 
@@ -397,6 +618,8 @@ function App(){
     setSelectedAnswer(null)
     setEliminatedOptions([])
     setShowHint(false)
+    setAiMentorTip(null)
+    setAiDeepDive(null)
     
     if(idx + 1 >= questions.length){
       endGame(true)
@@ -412,7 +635,6 @@ function App(){
     const timeTaken = Date.now() - startTime
     const minutes = Math.floor(timeTaken / 60000)
     
-    // Verificar conquistas
     if(victory) {
       unlockAchievement('first_win')
       playSound('victory')
@@ -431,7 +653,6 @@ function App(){
       }
     }
     
-    // Atualizar estatísticas
     const newStats = {
       totalGames: stats.totalGames + 1,
       highScore: Math.max(stats.highScore, score),
@@ -439,19 +660,18 @@ function App(){
       totalCorrect: stats.totalCorrect + (idx + 1),
       gamesWithoutHelp: stats.gamesWithoutHelp + (helps.skip && helps.eliminate && helps.hint ? 1 : 0),
       fastestTime: stats.fastestTime ? Math.min(stats.fastestTime, timeTaken) : timeTaken,
-      chaptersPlayed: stats.chaptersPlayed.includes(selectedChapter) ? stats.chaptersPlayed : [...stats.chaptersPlayed, selectedChapter]
+      chaptersPlayed: stats.chaptersPlayed.includes(selectedChapter) ? stats.chaptersPlayed : [...stats.chaptersPlayed, selectedChapter],
+      aiUsageCount: stats.aiUsageCount
     }
     
     setStats(newStats)
-    localStorage.setItem('espiritismo-stats', JSON.stringify(newStats))
+    localStorage.setItem('espiriquiz-stats', JSON.stringify(newStats))
     
-    // Verificar mais conquistas
     if(newStats.totalGames >= 10) unlockAchievement('persistent')
     if(newStats.perfectGames >= 10) unlockAchievement('master')
     if(newStats.chaptersPlayed.length >= 5) unlockAchievement('scholar')
     if(score > stats.highScore) unlockAchievement('high_score')
     
-    // Adicionar ao ranking
     if(!studyMode && score > 0) {
       const entry = {
         score,
@@ -463,14 +683,23 @@ function App(){
       }
       const newRanking = [...ranking, entry].sort((a, b) => b.score - a.score).slice(0, 10)
       setRanking(newRanking)
-      localStorage.setItem('espiritismo-ranking', JSON.stringify(newRanking))
+      localStorage.setItem('espiriquiz-ranking', JSON.stringify(newRanking))
     }
     
     setView("end")
   }
 
+  function exitGame() {
+    if(view === 'game') {
+      const confirm = window.confirm('Deseja realmente sair? Seu progresso será perdido.')
+      if(!confirm) return
+    }
+    stopSound('ambience')
+    setView("menu")
+  }
+
   function share(){
-    const text = `🌟 Show do Espiritismo 📖
+    const text = `🌟 EspiriQuiz 📖
 
 Pontuação: ${score.toLocaleString()} pontos
 Modo: ${difficulty === "easy" ? "Fácil" : difficulty === "hard" ? "Difícil" : "Normal"}
@@ -481,7 +710,7 @@ Teste seus conhecimentos sobre O Livro dos Espíritos! 🙏✨`
 
     if(navigator.share){
       navigator.share({
-        title: "Show do Espiritismo",
+        title: "EspiriQuiz",
         text: text,
         url: location.href
       })
@@ -495,11 +724,34 @@ Teste seus conhecimentos sobre O Livro dos Espíritos! 🙏✨`
   if(view === "menu")
     return (
       <div className="min-h-screen flex flex-col items-center justify-center gap-6 text-center p-4 fade-in">
+        <SoundControl soundEnabled={soundEnabled} setSoundEnabled={setSoundEnabled} />
+        
         <div className="floating mb-4">
-          <h1 className="text-4xl md:text-6xl font-bold glow-text mb-2">
-            Show do Espiritismo
+          <h1 className="text-5xl md:text-7xl font-bold glow-text mb-2">
+            EspiriQuiz
           </h1>
           <p className="text-purple-300 text-lg">O Livro dos Espíritos</p>
+        </div>
+
+        {/* Mensagem de Luz Diária */}
+        <div className="bg-slate-900/50 backdrop-blur-sm p-6 rounded-2xl card-glow max-w-2xl w-full mb-4">
+          <h3 className="text-xl font-semibold mb-3 text-cyan-300 flex items-center justify-center gap-2">
+            ✨ Mensagem de Luz Diária
+          </h3>
+          
+          {dailyMessage ? (
+            <div className="ai-message p-4 rounded-xl text-sm text-slate-200 leading-relaxed whitespace-pre-line">
+              {dailyMessage}
+            </div>
+          ) : (
+            <button 
+              onClick={generateDailyMessage}
+              disabled={loadingAI}
+              className="btn-secondary px-6 py-3 rounded-xl font-semibold text-white w-full disabled:opacity-50"
+            >
+              {loadingAI ? <span className="loading-dots">Gerando</span> : '✨ Receber Mensagem de Luz'}
+            </button>
+          )}
         </div>
 
         <div className="bg-slate-900/50 backdrop-blur-sm p-6 rounded-2xl card-glow max-w-md w-full">
@@ -520,7 +772,7 @@ Teste seus conhecimentos sobre O Livro dos Espíritos! 🙏✨`
               </div>
             </div>
             
-            <div className="bg-slate-800/30 p-3 rounded-xl text-sm">
+            <div className="bg-slate-800/30 p-3 rounded-xl text-sm mb-3">
               <div className="flex justify-between mb-1">
                 <span className="text-slate-400">Conquistas</span>
                 <span className="font-semibold text-purple-400">{achievements.length}/{ACHIEVEMENTS.length}</span>
@@ -528,6 +780,13 @@ Teste seus conhecimentos sobre O Livro dos Espíritos! 🙏✨`
               <div className="w-full bg-slate-700 rounded-full h-2">
                 <div className="bg-gradient-to-r from-purple-600 to-pink-600 h-2 rounded-full" 
                      style={{width: `${(achievements.length / ACHIEVEMENTS.length) * 100}%`}}></div>
+              </div>
+            </div>
+
+            <div className="bg-cyan-900/20 border border-cyan-500/30 p-3 rounded-xl text-sm">
+              <div className="flex justify-between">
+                <span className="text-cyan-300">🧠 IA Utilizada</span>
+                <span className="font-semibold text-cyan-400">{stats.aiUsageCount}x</span>
               </div>
             </div>
           </div>
@@ -560,16 +819,6 @@ Teste seus conhecimentos sobre O Livro dos Espíritos! 🙏✨`
                 <option value="Capítulo IV">Capítulo IV - Princípio Vital</option>
                 <option value="Capítulo V">Capítulo V - Dos Espíritos</option>
               </select>
-            </div>
-
-            <div className="flex items-center justify-between bg-slate-800/50 rounded-xl px-4 py-3">
-              <span className="text-sm text-slate-300">🔊 Sons Zen</span>
-              <button 
-                onClick={() => setSoundEnabled(!soundEnabled)}
-                className={`relative w-14 h-7 rounded-full transition-colors ${soundEnabled ? 'bg-purple-600' : 'bg-slate-600'}`}
-              >
-                <div className={`absolute top-1 left-1 w-5 h-5 bg-white rounded-full transition-transform ${soundEnabled ? 'translate-x-7' : ''}`}></div>
-              </button>
             </div>
           </div>
 
@@ -623,6 +872,9 @@ Teste seus conhecimentos sobre O Livro dos Espíritos! 🙏✨`
 
     return (
       <div className="min-h-screen p-4 flex items-center justify-center fade-in">
+        <SoundControl soundEnabled={soundEnabled} setSoundEnabled={setSoundEnabled} />
+        <ExitButton onExit={exitGame} />
+        
         <div className="max-w-2xl w-full">
           {/* Header */}
           <div className="mb-4">
@@ -691,8 +943,28 @@ Teste seus conhecimentos sobre O Livro dos Espíritos! 🙏✨`
             )}
           </div>
 
+          {/* Dica do Mentor IA */}
+          {!aiMentorTip && selectedAnswer === null && (
+            <div className="mb-4">
+              <button 
+                onClick={generateMentorTip}
+                disabled={loadingAI}
+                className="btn-secondary px-4 py-2 rounded-xl text-sm font-semibold w-full disabled:opacity-50"
+              >
+                {loadingAI ? <span className="loading-dots">Consultando mentor</span> : '🧠 Pedir Dica do Mentor (IA)'}
+              </button>
+            </div>
+          )}
+
+          {aiMentorTip && (
+            <div className="ai-message p-4 rounded-xl mb-4 text-sm leading-relaxed">
+              <div className="font-semibold text-cyan-300 mb-2">🧠 Mentor Espiritual:</div>
+              <div className="text-slate-200 whitespace-pre-line">{aiMentorTip}</div>
+            </div>
+          )}
+
           {/* Opções */}
-          <div className="space-y-3">
+          <div className="space-y-3 mb-4">
             {q.options.map((option, i) => {
               const isSelected = selectedAnswer === i
               const isCorrect = i === q.correct
@@ -733,17 +1005,37 @@ Teste seus conhecimentos sobre O Livro dos Espíritos! 🙏✨`
             })}
           </div>
 
-          {/* Feedback com explicação */}
+          {/* Feedback e Aprofundamento */}
           {feedback !== null && (
-            <div className={`mt-4 p-4 rounded-2xl text-center font-semibold fade-in ${
-              feedback ? 'bg-green-600/20 text-green-300 border border-green-500' : 'bg-red-600/20 text-red-300 border border-red-500'
-            }`}>
-              <div className="text-lg mb-2">
-                {feedback ? '✓ Resposta Correta!' : '✗ Resposta Incorreta'}
+            <div>
+              <div className={`p-4 rounded-2xl text-center font-semibold mb-4 ${
+                feedback ? 'bg-green-600/20 text-green-300 border border-green-500' : 'bg-red-600/20 text-red-300 border border-red-500'
+              }`}>
+                <div className="text-lg mb-2">
+                  {feedback ? '✓ Resposta Correta!' : '✗ Resposta Incorreta'}
+                </div>
+                {studyMode && q.explanation && (
+                  <div className="text-sm text-slate-300 mt-2 text-left">
+                    <strong>Explicação:</strong> {q.options[q.correct]}
+                  </div>
+                )}
               </div>
-              {studyMode && q.explanation && (
-                <div className="text-sm text-slate-300 mt-2 text-left">
-                  <strong>Explicação:</strong> {q.options[q.correct]}
+
+              {/* Aprofundamento Doutrinário */}
+              {feedback && !aiDeepDive && (
+                <button 
+                  onClick={generateDeepDive}
+                  disabled={loadingAI}
+                  className="btn-success px-4 py-2 rounded-xl text-sm font-semibold w-full disabled:opacity-50 mb-4"
+                >
+                  {loadingAI ? <span className="loading-dots">Gerando explicação</span> : '📚 Aprofundamento Doutrinário (IA)'}
+                </button>
+              )}
+
+              {aiDeepDive && (
+                <div className="ai-message p-4 rounded-xl text-sm leading-relaxed">
+                  <div className="font-semibold text-green-300 mb-2">📚 Aprofundamento Doutrinário:</div>
+                  <div className="text-slate-200 whitespace-pre-line">{aiDeepDive}</div>
                 </div>
               )}
             </div>
@@ -771,6 +1063,9 @@ Teste seus conhecimentos sobre O Livro dos Espíritos! 🙏✨`
   if(view === 'achievements') {
     return (
       <div className="min-h-screen p-6 fade-in">
+        <SoundControl soundEnabled={soundEnabled} setSoundEnabled={setSoundEnabled} />
+        <ExitButton onExit={exitGame} />
+        
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-bold glow-text mb-6 text-center">🏆 Conquistas</h2>
           
@@ -809,6 +1104,9 @@ Teste seus conhecimentos sobre O Livro dos Espíritos! 🙏✨`
   if(view === 'ranking') {
     return (
       <div className="min-h-screen p-6 fade-in">
+        <SoundControl soundEnabled={soundEnabled} setSoundEnabled={setSoundEnabled} />
+        <ExitButton onExit={exitGame} />
+        
         <div className="max-w-2xl mx-auto">
           <h2 className="text-3xl font-bold glow-text mb-6 text-center">📊 Ranking Local</h2>
           
@@ -864,6 +1162,8 @@ Teste seus conhecimentos sobre O Livro dos Espíritos! 🙏✨`
 
     return (
       <div className="min-h-screen flex flex-col items-center justify-center gap-6 p-6 fade-in">
+        <SoundControl soundEnabled={soundEnabled} setSoundEnabled={setSoundEnabled} />
+        
         <div className="text-center">
           {isPerfect && (
             <div className="text-6xl mb-4 floating">🏆</div>
